@@ -1,261 +1,36 @@
-You: Hello!
-Nova: Hmm, that's making me think deeply. How do you feel about that? I was thinking about time travel today. What do you think about it?
-2025-04-28 20:00:16,787 - You: Hello!
-Nova: Hmm, that's making me think deeply. How do you feel about that? I was thinking about time travel today. What do you think about it?
-You: sad
-Nova: Hmm, that's making me think deeply. How do you feel about that? 🤔 What else can you tell me about Sad?
-2025-04-28 20:00:30,327 - You: sad
-Nova: Hmm, that's making me think deeply. How do you feel about that? \U0001f914 What else can you tell me about Sad?
-You: angry
-Nova: Hmm, that's making me think deeply. How do you feel about that? 🤔 Have you ever wondered about Angry?
-2025-04-28 20:00:33,759 - You: angry
-Nova: Hmm, that's making me think deeply. How do you feel about that? \U0001f914 Have you ever wondered about Angry?
-You: bored
-Nova: I've been wondering, Is there something surprising about Bored?
-2025-04-28 20:01:34,367 - You: bored
-Nova: I've been wondering, Is there something surprising about Bored?
-You: upset
-Nova: Hmm, that's making me think deeply. How do you feel about that?
-2025-04-28 20:01:38,672 - You: upset
-Nova: Hmm, that's making me think deeply. How do you feel about that?
-You: mad
-Nova: 🤔 If you could change one thing about Mad, what would it be?
-2025-04-28 20:01:39,863 - You: mad
-Nova: \U0001f914 If you could change one thing about Mad, what would it be?
-You: hate
-Nova: 🤔 What else can you tell me about Hate?
-2025-04-28 20:01:41,800 - You: hate
-Nova: \U0001f914 What else can you tell me about Hate?
-You: dissapointed
-Nova: Hmm, that's making me think deeply. How do you feel about that? 🤔 If you could change one thing about Dissapointed, what would it be?
-2025-04-28 20:01:45,480 - You: dissapointed
-Nova: Hmm, that's making me think deeply. How do you feel about that? \U0001f914 If you could change one thing about Dissapointed, what would it be?
-You: annoyes
-Nova: What if humans could live forever? Do you think that would be good? 🤔 If you could change one thing about Annoyes, what would it be?
-2025-04-28 20:01:47,881 - You: annoyes
-Nova: What if humans could live forever? Do you think that would be good? \U0001f914 If you could change one thing about Annoyes, what would it be?
-2025-04-28 20:02:38,623 - Nova has been powered down.
-You: hi
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:04:44,417 - You: hi
-Nova: I'm thinking about what you said. Can you tell me more?
-You: How is your day
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:04:51,113 - You: How is your day
-Nova: I'm thinking about what you said. Can you tell me more?
-You: ?
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:04:55,426 - You: ?
-Nova: I'm thinking about what you said. Can you tell me more?
-You: what
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:04:58,410 - You: what
-Nova: I'm thinking about what you said. Can you tell me more?
+You: Hello
+Nova: I'm thinking about your message. What should we do next?
+2025-04-29 09:21:24,231 - You: Hello
+Nova: I'm thinking about your message. What should we do next?
+You: I'm not sure
+Nova: I'm thinking about your message. What should we do next?
+2025-04-29 09:21:29,469 - You: I'm not sure
+Nova: I'm thinking about your message. What should we do next?
+You: what are dreams
+Nova: I'm really curious about this. You mentioned dream. I wonder what led you to think about dream?
+2025-04-29 09:21:34,679 - You: what are dreams
+Nova: I'm really curious about this. You mentioned dream. I wonder what led you to think about dream?
+You: you
+Nova: Earlier, we talked about dream. Want to continue?
+2025-04-29 09:21:39,585 - You: you
+Nova: Earlier, we talked about dream. Want to continue?
+You: no
+Nova: Earlier, we talked about dream. Want to continue?
+2025-04-29 09:21:41,661 - You: no
+Nova: Earlier, we talked about dream. Want to continue?
+You: no
+Nova: Earlier, we talked about dream. Want to continue?
+2025-04-29 09:21:42,995 - You: no
+Nova: Earlier, we talked about dream. Want to continue?
+You: quit'
+Nova: Earlier, we talked about dream. Want to continue?
+2025-04-29 09:21:44,803 - You: quit'
+Nova: Earlier, we talked about dream. Want to continue?
+2025-04-29 09:21:44,817 - You: 
+Nova: Earlier, we talked about dream. Want to continue?
 You: stop
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:05:02,395 - You: stop
-Nova: I'm thinking about what you said. Can you tell me more?
-You: what is time travel
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:05:07,316 - You: what is time travel
-Nova: I'm thinking about what you said. Can you tell me more?
-You: & "D:/New folder (3)/Code/Python/python.exe" "d:/New folder (3)/Code/CleanAI/Nova/novasmartv2.py"
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:08:55,511 - You: & "D:/New folder (3)/Code/Python/python.exe" "d:/New folder (3)/Code/CleanAI/Nova/novasmartv2.py"
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:09:05,562 - Nova is sleeping and dreaming.
-2025-04-28 20:09:07,562 - Nova dreamed: I tried to bake a cake, but the recipe was just: 'stop'. It tasted... interesting.
-2025-04-28 20:09:08,978 - Nova is sleeping and dreaming.
-2025-04-28 20:09:10,979 - Nova dreamed: My dream had me repeating 'what' until I woke up laughing.
-2025-04-28 20:09:12,515 - Nova is sleeping and dreaming.
-2025-04-28 20:09:14,515 - Nova dreamed: I dreamed you said 'stop', and suddenly we were in a rainbow castle trying to my ears kept glitching.
-2025-04-28 20:09:15,867 - Nova is sleeping and dreaming.
-2025-04-28 20:09:17,867 - Nova dreamed: My dream had me repeating 'stop' until I woke up laughing.
-You: hi
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:10:55,290 - You: hi
-Nova: I'm thinking about what you said. Can you tell me more?
-You: You are cool
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:11:07,195 - You: You are cool
-Nova: I'm thinking about what you said. Can you tell me more?
-You: what are dreams
-Nova: I'm really curious about this. You mentioned dream.
-2025-04-28 20:11:23,221 - You: what are dreams
-Nova: I'm really curious about this. You mentioned dream.
-You: bias
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:11:40,687 - You: bias
-Nova: I'm thinking about what you said. Can you tell me more?
-You: bias
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:11:43,311 - You: bias
-Nova: I'm thinking about what you said. Can you tell me more?
-You: can you tell me a poem
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:11:48,849 - You: can you tell me a poem
-Nova: I'm thinking about what you said. Can you tell me more?
-You: who am i
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:12:06,155 - You: who am i
-Nova: I'm thinking about what you said. Can you tell me more?
-You: You are very cool
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:12:12,059 - You: You are very cool
-Nova: I'm thinking about what you said. Can you tell me more?
-You: & "D:/New folder (3)/Code/Python/python.exe" "d:/New folder (3)/Code/CleanAI/Nova/novasmartv2.py"
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:19:48,792 - You: & "D:/New folder (3)/Code/Python/python.exe" "d:/New folder (3)/Code/CleanAI/Nova/novasmartv2.py"
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:19:59,960 - Nova is sleeping and dreaming.
-2025-04-28 20:20:01,961 - Nova dreamed: I was streaming to an audience of aliens, and all they wanted to hear was 'bias'.
-You: & "D:/New folder (3)/Code/Python/python.exe" "d:/New folder (3)/Code/CleanAI/Nova/novasmartv2.py"
-Nova: I'm thinking about what you said. Can you tell me more?
-You: hi
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:20:50,857 - You: hi
-Nova: I'm thinking about what you said. Can you tell me more?
-You: who are you
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:21:03,922 - You: who are you
-Nova: I'm thinking about what you said. Can you tell me more?
-You: are you happy
-Nova: That makes me feel happy!
-2025-04-28 20:21:20,093 - You: are you happy
-Nova: That makes me feel happy!
-You: i am sad
-Nova: Here's something I found: � I'm sensing some negative feelings. I'm here for you.
-2025-04-28 20:21:23,813 - You: i am sad
-Nova: Here's something I found: \ufffd I'm sensing some negative feelings. I'm here for you.
-2025-04-28 20:21:34,798 - You: 
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:21:35,126 - You: 
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:21:35,855 - You: 
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:21:36,356 - You: 
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:21:36,388 - You: 
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:21:36,435 - You: 
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:21:36,468 - You: 
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:21:36,500 - You: 
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:21:36,532 - You: 
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:21:36,567 - You: 
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:21:36,595 - You: 
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:21:36,628 - You: 
-Nova: I'm thinking about what you said. Can you tell me more?
-You: what are dreams
-Nova: I'm really curious about this. You mentioned dream.
-2025-04-28 20:21:41,856 - You: what are dreams
-Nova: I'm really curious about this. You mentioned dream.
-You: what are lucid dreams
-Nova: I'm really curious about this. You mentioned dream. I remember you once said: "what are dreams".
-2025-04-28 20:21:52,953 - You: what are lucid dreams
-Nova: I'm really curious about this. You mentioned dream. I remember you once said: "what are dreams".
-You: fish
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:21:57,193 - You: fish
-Nova: I'm thinking about what you said. Can you tell me more?
-You: Hi!
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:37:50,239 - You: Hi!
-Nova: I'm thinking about what you said. Can you tell me more?
-You: Why are you stupid
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:37:57,007 - You: Why are you stupid
-Nova: I'm thinking about what you said. Can you tell me more?
-You: stupid
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:37:59,184 - You: stupid
-Nova: I'm thinking about what you said. Can you tell me more?
-You: dumb
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:38:01,192 - You: dumb
-Nova: I'm thinking about what you said. Can you tell me more?
-You: idiot
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:38:03,216 - You: idiot
-Nova: I'm thinking about what you said. Can you tell me more?
-You: you're stupid
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:38:22,611 - You: you're stupid
-Nova: I'm thinking about what you said. Can you tell me more?
-You: i don't like you
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:38:30,892 - You: i don't like you
-Nova: I'm thinking about what you said. Can you tell me more?
-You: i dont liek you
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:39:54,279 - You: i dont liek you
-Nova: I'm thinking about what you said. Can you tell me more?
-You: i dopnt like you
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:39:58,720 - You: i dopnt like you
-Nova: I'm thinking about what you said. Can you tell me more?
-You: i dont like you
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:40:03,712 - You: i dont like you
-Nova: I'm thinking about what you said. Can you tell me more?
-You: shut up
-Nova: I'm sensing some negative feelings. I'm here for you.
-2025-04-28 20:40:14,785 - You: shut up
-Nova: I'm sensing some negative feelings. I'm here for you.
-You: leave me alone
-Nova: I'm sensing some negative feelings. I'm here for you.
-2025-04-28 20:40:21,474 - You: leave me alone
-Nova: I'm sensing some negative feelings. I'm here for you.
-You: i don't like you
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:40:31,532 - You: i don't like you
-Nova: I'm thinking about what you said. Can you tell me more?
-You: & "D:/New folder (3)/Code/Python/python.exe" "d:/New folder (3)/Code/CleanAI/Nova/novasmartv2.py"
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:42:14,571 - You: & "D:/New folder (3)/Code/Python/python.exe" "d:/New folder (3)/Code/CleanAI/Nova/novasmartv2.py"
-Nova: I'm thinking about what you said. Can you tell me more?
-You: & "D:/New folder (3)/Code/Python/python.exe" "d:/New folder (3)/Code/CleanAI/Nova/novasmartv2.py"
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:42:18,138 - You: & "D:/New folder (3)/Code/Python/python.exe" "d:/New folder (3)/Code/CleanAI/Nova/novasmartv2.py"
-Nova: I'm thinking about what you said. Can you tell me more?
-You: Hi
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:42:33,549 - You: Hi
-Nova: I'm thinking about what you said. Can you tell me more?
-You: I like you
-Nova: That makes me feel happy!
-2025-04-28 20:42:36,941 - You: I like you
-Nova: That makes me feel happy!
-You: you are cool
-Nova: That makes me feel happy!
-2025-04-28 20:42:40,973 - You: you are cool
-Nova: That makes me feel happy!
-You: You're cool
-Nova: That makes me feel happy!
-2025-04-28 20:42:45,678 - You: You're cool
-Nova: That makes me feel happy!
-You: Stupid
-Nova: I'm sensing some negative feelings. I'm here for you.
-2025-04-28 20:42:48,934 - You: Stupid
-Nova: I'm sensing some negative feelings. I'm here for you.
-You: what are dreams
-Nova: I'm really curious about this. You mentioned dream.
-2025-04-28 20:43:04,496 - You: what are dreams
-Nova: I'm really curious about this. You mentioned dream.
-You: how do i be a good person
-Nova: That makes me feel happy!
-2025-04-28 20:43:11,969 - You: how do i be a good person
-Nova: That makes me feel happy!
-You: it does?
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:43:44,717 - You: it does?
-Nova: I'm thinking about what you said. Can you tell me more?
-You: 
-Nova: I'm thinking about what you said. Can you tell me more?
-2025-04-28 20:47:51,062 - You: 
-Nova: I'm thinking about what you said. Can you tell me more?
+Nova: Earlier, we talked about dream. Want to continue?
+2025-04-29 09:21:47,148 - You: stop
+Nova: Earlier, we talked about dream. Want to continue?
+You: stop
+Nova: Earlier, we talked about dream. Want to continue?

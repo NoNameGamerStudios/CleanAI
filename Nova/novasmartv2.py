@@ -229,6 +229,12 @@ class Nova:
         return None
 
     def think(self, user_input, return_log=False):
+        if self.stop_conversation(user_input):
+            response = "Okay, I'll stop talking about that. Let me know if you want to chat about something else!"
+            if return_log:
+                return response, ["User requested to stop conversation."]
+            return response
+
         """
         Nova's advanced reasoning engine: synthesizes memories, facts, personality, and self-questioning
         to form a thoughtful, human-like response. Logs her reasoning process for transparency.
@@ -266,9 +272,20 @@ class Nova:
             self_questions.append("Is the user upset? Should I comfort them?")
         elif sentiment == "positive":
             self_questions.append("Can I celebrate with them or share their joy?")
+        elif sentiment == "derrogatory":
+            self_questions.append("Is the user mad at me? Should I apologize? What did i do wrong?")
+        
+        
         if not topics and self.last_topic:
             self_questions.append(f"Should I bring up our last topic: {self.last_topic}?")
-        reasoning_log.append(f"Self-questions: {self_questions}")
+        if not topics and not self.last_topic:
+            self_questions.append("What should we do next?")
+        s_topic_starter = self.proactive_topic_starter()
+        
+        if s_topic_starter:
+            self_questions.append(f"How about we talk about {s_topic_starter}?")
+        if self_questions:
+            reasoning_log.append(f"Generated self-questions: {self_questions}")
 
         # 6. Formulate a hypothesis or opinion based on personality
         dominant = self.get_dominant_personality()
@@ -534,11 +551,17 @@ class Nova:
             "you're stupid", "i'm mad at you", "you're not helpful", "you're useless", "you're boring", "i'm upset",
             "i don't like you", "you're a bad ai", "you're mean", "i'm angry", "i'm disappointed"
         ]
+        derragatory_phrases = [
+            "you're a loser", "you're pathetic", "you're worthless", "you're a failure", "you're a joke","you're a waste of space",
+            "you're a burden", "you're a disgrace", "you're a disappointment", "you're a nuisance", "you're a pest",]
         positive_phrases = [
             "you're awesome", "i like you", "you're funny", "you're smart", "i love you", "you're cool", "thank you",
             "you're helpful", "you're the best", "you're amazing", "you're sweet", "you're kind", "i appreciate you",
             "you're a good ai", "you're great", "i'm happy", "i'm glad", "that was nice", "love", "happy", "fun"
         ]
+        approval_phrases = [
+            "i approve", "i agree", "i like that", "i support that", "i endorse that", "i think that's good", ]
+
         # Lowercase, remove punctuation, and normalize whitespace
         user_input_clean = user_input.lower().translate(str.maketrans('', '', string.punctuation))
         user_input_clean = re.sub(r'\s+', ' ', user_input_clean).strip()
@@ -550,6 +573,9 @@ class Nova:
         for phrase in positive_phrases:
             if phrase in user_input_clean:
                 return "positive"
+        for phrase in derragatory_phrases:
+            if phrase in user_input_clean:
+                return "derrogatory"
 
         # Fallback: check for individual negative/positive words
         negative_words = {"sad", "angry", "hate", "upset", "mad", "disappointed", "annoyed", "boring", "useless", "stupid", "dumb"}
@@ -576,12 +602,27 @@ class Nova:
         elif sentiment == "positive" and "negative" in response.lower():
             response += " (Oops, maybe I misread your mood! I'm glad you're feeling good!)"
             moderation_log.append("Adjusted response due to positive sentiment.")
+        elif sentiment == "derrogatory":
+            response +- "I am sorry you think {user_input}, but i'm trying my best"
+            moderation_log.append("Defelction; response due to derrogatory sentiment.")
+        
         # You can add more nuanced checks here based on reasoning_log or response content
 
         # Log the moderation step
         self.log_processing("moderate_response", moderation_log)
         return response
 
+    def continue_conversation(self, user_input):
+        # Check if Nova should continue the conversation based on user input
+        if any(word in user_input.lower() for word in ["continue", "go on", "tell me more", "i want to hear"]):
+            return True
+        return False
+    
+    def stop_conversation(self, user_input):
+        #check if nova shouuld stop conversation based on
+        if any(word in user_input.lower() for word in ["stop", "end", "quit", "exit", "leave"]):
+            return True
+        return False
     def learn_from_conversation(self, user_input, response):
         # Save new facts or corrections if user says "actually..." or "it's..."
         if "actually" in user_input.lower() or "it's" in user_input.lower():
@@ -609,6 +650,9 @@ if __name__ == "__main__":
             nova.save_memory()
             print("Nova: Goodbye! Talk to you later!")
             break
+        elif nova.stop_conversation(user_input):
+            print("Nova: Okay, I'll stop talking about that. Let me know if you want to chat about something else!")
+            continue
         elif user_input.lower() in ["shutdown", "power off"]:
             nova.shutdown()
             break
