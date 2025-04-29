@@ -1,0 +1,129 @@
+2025-04-27 11:58:36,087 - Found 0 URLs for page 1 of query 'minecraft+facts'.
+2025-04-27 11:58:38,445 - Found 0 URLs for page 2 of query 'minecraft+facts'.
+2025-04-27 11:58:40,744 - Found 0 URLs for page 3 of query 'minecraft+facts'.
+2025-04-27 11:58:43,285 - Found 0 URLs for page 4 of query 'minecraft+facts'.
+2025-04-27 11:58:45,784 - Found 0 URLs for page 5 of query 'minecraft+facts'.
+2025-04-27 11:58:47,785 - Total 0 URLs fetched for query 'minecraft+facts'.
+2025-04-27 13:03:28,743 - Found 10 URLs for page 1 of query 'Horror+games+2025'.
+2025-04-27 13:03:31,701 - Found 12 URLs for page 2 of query 'Horror+games+2025'.
+2025-04-27 13:03:34,015 - Found 0 URLs for page 3 of query 'Horror+games+2025'.
+2025-04-27 13:03:36,312 - Found 0 URLs for page 4 of query 'Horror+games+2025'.
+2025-04-27 13:03:38,584 - Found 0 URLs for page 5 of query 'Horror+games+2025'.
+2025-04-27 13:03:40,585 - Total 22 URLs fetched for query 'Horror+games+2025'.
+2025-04-27 13:03:40,586 - Starting to scrape: https://gameranx.com/features/id/510025/article/best-new-horror-games-of-2025/
+2025-04-27 13:03:40,586 - Starting to scrape: https://www.gamesradar.com/upcoming-horror-games/
+2025-04-27 13:03:40,587 - Starting to scrape: https://comicbook.com/gaming/news/horror-games-new-2025/
+2025-04-27 13:03:40,587 - Starting to scrape: https://www.gamespot.com/gallery/the-most-anticipated-horror-games-of-2025-and-beyond/2900-6114/
+2025-04-27 13:03:40,588 - Starting to scrape: https://www.ranker.com/list/most-anticipated-horror-games-2025/gabriel-cook
+2025-04-27 13:03:40,918 - Starting to scrape: https://screenrant.com/2025-most-anticipated-horror-games/
+2025-04-27 13:03:40,919 - Error processing URL https://comicbook.com/gaming/news/horror-games-new-2025/: 'NoneType' object has no attribute 'get'
+2025-04-27 13:03:41,050 - Starting to scrape: https://gadgetslogs.com/gaming/horror-games-coming-in-2025/
+2025-04-27 13:03:41,050 - Error processing URL https://www.ranker.com/list/most-anticipated-horror-games-2025/gabriel-cook: 'NoneType' object has no attribute 'get'
+2025-04-27 13:03:41,290 - Starting to scrape: https://insider-gaming.com/biggest-horror-games-coming-in-2025/
+2025-04-27 13:03:41,290 - Error processing URL https://screenrant.com/2025-most-anticipated-horror-games/: 'NoneType' object has no attribute 'get'
+2025-04-27 13:03:41,349 - Starting to scrape: https://www.noobfeed.com/articles/top-10-upcoming-horror-games-of-2025
+2025-04-27 13:03:41,349 - Error processing URL https://www.gamesradar.com/upcoming-horror-games/: 'NoneType' object has no attribute 'get'
+2025-04-27 13:03:41,487 - Error scraping https://insider-gaming.com/biggest-horror-games-coming-in-2025/: 403 Client Error: Forbidden for url: https://insider-gaming.com/biggest-horror-games-coming-in-2025/
+2025-04-27 13:03:41,487 - Starting to scrape: https://www.youtube.com/watch?v=yzsoTSP6JVM
+2025-04-27 13:03:42,081 - Starting to scrape: https://duckduckgo.com/y.js?ad_domain=amazon.com&ad_provider=bingv7aa&ad_type=txad&click_metadata=0vx_Sqqz1ktJZ%2Dgf72U0ntoj%2DKEms6ja2WueWD4Vh4imd0JdXv%2DGGXgMr6g75KZ2QujLfP9_xNaiIuvQH15DBOpFk3KyZIfGXUh78oDDBAwMlSsQhnqr4Cg1W%2DQRrcSP.JktynDG8kmfVcPqpvoHATg&rut=ac615719cabc3539dd81715982c1a4950f67ebc64f2ddb9e31236bd48ffa2305&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8dMJW%2D4l35qsLGtiiBQMjJjVUCUzJizd7WrsykVbHY8Qm_bZE2HfGc985QHb1hqmhM6hO4F%2DSL8ue6VmHw1mMrgl4Z7gG6KjMhtNnvm2sl3m6RnEDJMSA27gdCR%2DvOxHTm3BJ9So8TQedyGwyf%2D0PvBV042qvAhGDZErBeoZvTnZq13wvjHbYHG88ha27TRVAHdKydA%26u%3DaHR0cHMlM2ElMmYlMmZ3d3cuYW1hem9uLmNvbSUyZnMlMmYlM2ZpZSUzZFVURjglMjZrZXl3b3JkcyUzZGhvcnJvciUyYmdhbWVzJTJidmlkZW8lMjZpbmRleCUzZGFwcyUyNnRhZyUzZHR4dHN0ZGJnZHQtMjAlMjZyZWYlM2RwZF9zbF8ybWd4aWJ3dXB5X3AlMjZhZGdycGlkJTNkMTIzODA1MTEzNzkzODgyOCUyNmh2YWRpZCUzZDc3Mzc4MzI4OTM5NTU0JTI2aHZuZXR3JTNkcyUyNmh2cW10JTNkcCUyNmh2Ym10JTNkYnAlMjZodmRldiUzZGMlMjZodmxvY2ludCUzZCUyNmh2bG9jcGh5JTNkODM1MzYlMjZodnRhcmdpZCUzZGt3ZC03NzM3ODQ5ODM2NzM1MSUzYWxvYy0xOTAlMjZoeWRhZGNyJTNkMTUxNzNfMTM2MzI0MDIlMjZtY2lkJTNkMjNiNzc4NDE1ZDczMzkzMmIwY2Q3Nzg5YjcwNGFmZmIlMjZsYW5ndWFnZSUzZGVuX1VTJTI2bXNjbGtpZCUzZGE4Zjk3MTYxNzU2ZDE2ZmQyMzIzMTk2ZjE2MGZhYTM5%26rlid%3Da8f97161756d16fd2323196f160faa39&vqd=4-111823336956074067607658707043336388054&iurl=%7B1%7DIG%3DB3CFC26300AC4718BADA8A3152DD5704%26CID%3D356F84F4C6226FE424CD912FC7BB6E71%26ID%3DDevEx%2C5049.1
+2025-04-27 13:03:42,109 - Error processing URL https://www.noobfeed.com/articles/top-10-upcoming-horror-games-of-2025: 'NoneType' object has no attribute 'get'
+2025-04-27 13:03:42,539 - Error processing URL https://gameranx.com/features/id/510025/article/best-new-horror-games-of-2025/: 'NoneType' object has no attribute 'get'
+2025-04-27 13:03:42,507 - Starting to scrape: https://duckduckgo.com/y.js?ad_domain=lagged.com&ad_provider=bingv7aa&ad_type=txad&click_metadata=VdtKXa%2D0wZI24rTDVnt2MsrcleO5NRYmz_7xEB_veGAGBzUVtjcr8oLCNk6pjZmB2ZpWvr56YazbWPvS75%2DBX%2DC_DsnWXzxzdWaxVhnkQCT7mlUXjMYaxLVkE0PRrxex.60OOzqTfWjpSFJ6XMgwS4Q&rut=47cfacc6e1650a64d328bf64e4a296890bb891d4ad191dac75bf88233ae9f37e&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8oxqkQy_yKv0e9cAGQZry0jVUCUzJUgItFZvUgxL2AkmUBC6G4rrmv0ncLgf81zzMZdgule3_ILgmmYzmWV4sJFwzduyHa_w021XUwyaEPbaACp_UY26ZY96LOpVxXVH6D58jXxmhLtrI5KHcjzhWiDKf4uj8wCeVcAOhfxS%2DPT8WgOzN678__5Y8lv_fPHgvqywvRA%26u%3DaHR0cHMlM2ElMmYlMmZsYWdnZWQuY29tJTJmZW4lMmZob3Jyb3IlM2ZiaW5nX2NpZCUzZDQ0MSUyNm1zY2xraWQlM2RlN2Q0NjY5ZGI1ODAxYTFkNTUyMzBlOTNkNmUyYWFhMw%26rlid%3De7d4669db5801a1d55230e93d6e2aaa3&vqd=4-155565161280483630028843670210310067031&iurl=%7B1%7DIG%3DB3CFC26300AC4718BADA8A3152DD5704%26CID%3D356F84F4C6226FE424CD912FC7BB6E71%26ID%3DDevEx%2C5052.1
+2025-04-27 13:03:43,547 - Starting to scrape: https://gameranx.com/features/id/510025/article/best-new-horror-games-of-2025/
+2025-04-27 13:03:43,635 - Error processing URL https://gadgetslogs.com/gaming/horror-games-coming-in-2025/: 'NoneType' object has no attribute 'get'
+2025-04-27 13:03:43,809 - Error scraping https://duckduckgo.com/y.js?ad_domain=amazon.com&ad_provider=bingv7aa&ad_type=txad&click_metadata=0vx_Sqqz1ktJZ%2Dgf72U0ntoj%2DKEms6ja2WueWD4Vh4imd0JdXv%2DGGXgMr6g75KZ2QujLfP9_xNaiIuvQH15DBOpFk3KyZIfGXUh78oDDBAwMlSsQhnqr4Cg1W%2DQRrcSP.JktynDG8kmfVcPqpvoHATg&rut=ac615719cabc3539dd81715982c1a4950f67ebc64f2ddb9e31236bd48ffa2305&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8dMJW%2D4l35qsLGtiiBQMjJjVUCUzJizd7WrsykVbHY8Qm_bZE2HfGc985QHb1hqmhM6hO4F%2DSL8ue6VmHw1mMrgl4Z7gG6KjMhtNnvm2sl3m6RnEDJMSA27gdCR%2DvOxHTm3BJ9So8TQedyGwyf%2D0PvBV042qvAhGDZErBeoZvTnZq13wvjHbYHG88ha27TRVAHdKydA%26u%3DaHR0cHMlM2ElMmYlMmZ3d3cuYW1hem9uLmNvbSUyZnMlMmYlM2ZpZSUzZFVURjglMjZrZXl3b3JkcyUzZGhvcnJvciUyYmdhbWVzJTJidmlkZW8lMjZpbmRleCUzZGFwcyUyNnRhZyUzZHR4dHN0ZGJnZHQtMjAlMjZyZWYlM2RwZF9zbF8ybWd4aWJ3dXB5X3AlMjZhZGdycGlkJTNkMTIzODA1MTEzNzkzODgyOCUyNmh2YWRpZCUzZDc3Mzc4MzI4OTM5NTU0JTI2aHZuZXR3JTNkcyUyNmh2cW10JTNkcCUyNmh2Ym10JTNkYnAlMjZodmRldiUzZGMlMjZodmxvY2ludCUzZCUyNmh2bG9jcGh5JTNkODM1MzYlMjZodnRhcmdpZCUzZGt3ZC03NzM3ODQ5ODM2NzM1MSUzYWxvYy0xOTAlMjZoeWRhZGNyJTNkMTUxNzNfMTM2MzI0MDIlMjZtY2lkJTNkMjNiNzc4NDE1ZDczMzkzMmIwY2Q3Nzg5YjcwNGFmZmIlMjZsYW5ndWFnZSUzZGVuX1VTJTI2bXNjbGtpZCUzZGE4Zjk3MTYxNzU2ZDE2ZmQyMzIzMTk2ZjE2MGZhYTM5%26rlid%3Da8f97161756d16fd2323196f160faa39&vqd=4-111823336956074067607658707043336388054&iurl=%7B1%7DIG%3DB3CFC26300AC4718BADA8A3152DD5704%26CID%3D356F84F4C6226FE424CD912FC7BB6E71%26ID%3DDevEx%2C5049.1: 503 Server Error: Service Unavailable for url: https://www.amazon.com/s/?ie=UTF8&keywords=horror+games+video&index=aps&tag=txtstdbgdt-20&ref=pd_sl_2mgxibwupy_p&adgrpid=1238051137938828&hvadid=77378328939554&hvnetw=s&hvqmt=p&hvbmt=bp&hvdev=c&hvlocint=&hvlocphy=83536&hvtargid=kwd-77378498367351:loc-190&hydadcr=15173_13632402&mcid=23b778415d733932b0cd7789b704affb&language=en_US&msclkid=a8f97161756d16fd2323196f160faa39
+2025-04-27 13:03:43,924 - Starting to scrape: https://www.gamesradar.com/upcoming-horror-games/
+2025-04-27 13:03:44,312 - Starting to scrape: https://comicbook.com/gaming/news/horror-games-new-2025/
+2025-04-27 13:03:44,312 - Error processing URL https://www.gamespot.com/gallery/the-most-anticipated-horror-games-of-2025-and-beyond/2900-6114/: 'NoneType' object has no attribute 'get'
+2025-04-27 13:03:44,328 - Starting to scrape: https://www.gamespot.com/gallery/the-most-anticipated-horror-games-of-2025-and-beyond/2900-6114/
+2025-04-27 13:03:44,328 - Error processing URL https://gameranx.com/features/id/510025/article/best-new-horror-games-of-2025/: 'NoneType' object has no attribute 'get'
+2025-04-27 13:03:44,800 - Starting to scrape: https://www.ranker.com/list/most-anticipated-horror-games-2025/gabriel-cook
+2025-04-27 13:03:44,801 - Error processing URL https://duckduckgo.com/y.js?ad_domain=lagged.com&ad_provider=bingv7aa&ad_type=txad&click_metadata=VdtKXa%2D0wZI24rTDVnt2MsrcleO5NRYmz_7xEB_veGAGBzUVtjcr8oLCNk6pjZmB2ZpWvr56YazbWPvS75%2DBX%2DC_DsnWXzxzdWaxVhnkQCT7mlUXjMYaxLVkE0PRrxex.60OOzqTfWjpSFJ6XMgwS4Q&rut=47cfacc6e1650a64d328bf64e4a296890bb891d4ad191dac75bf88233ae9f37e&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8oxqkQy_yKv0e9cAGQZry0jVUCUzJUgItFZvUgxL2AkmUBC6G4rrmv0ncLgf81zzMZdgule3_ILgmmYzmWV4sJFwzduyHa_w021XUwyaEPbaACp_UY26ZY96LOpVxXVH6D58jXxmhLtrI5KHcjzhWiDKf4uj8wCeVcAOhfxS%2DPT8WgOzN678__5Y8lv_fPHgvqywvRA%26u%3DaHR0cHMlM2ElMmYlMmZsYWdnZWQuY29tJTJmZW4lMmZob3Jyb3IlM2ZiaW5nX2NpZCUzZDQ0MSUyNm1zY2xraWQlM2RlN2Q0NjY5ZGI1ODAxYTFkNTUyMzBlOTNkNmUyYWFhMw%26rlid%3De7d4669db5801a1d55230e93d6e2aaa3&vqd=4-155565161280483630028843670210310067031&iurl=%7B1%7DIG%3DB3CFC26300AC4718BADA8A3152DD5704%26CID%3D356F84F4C6226FE424CD912FC7BB6E71%26ID%3DDevEx%2C5052.1: [Errno 2] No such file or directory: 'scraped_data\\scraped_content\\scraped_content_duckduckgo.com_y.js?ad_domain=lagged.com&ad_provider=bingv7aa&ad_type=txad&click_metadata=VdtKXa%2D0wZI24rTDVnt2MsrcleO5NRYmz_7xEB_veGAGBzUVtjcr8oLCNk6pjZmB2ZpWvr56YazbWPvS75%2DBX%2DC_DsnWXzxzdWaxVhnkQCT7mlUXjMYaxLVkE0PRrxex.60OOzqTfWjpSFJ6XMgwS4Q&rut=47cfacc6e1650a64d328bf64e4a296890bb891d4ad191dac75bf88233ae9f37e&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8oxqkQy_yKv0e9cAGQZry0jVUCUzJUgItFZvUgxL2AkmUBC6G4rrmv0ncLgf81zzMZdgule3_ILgmmYzmWV4sJFwzduyHa_w021XUwyaEPbaACp_UY26ZY96LOpVxXVH6D58jXxmhLtrI5KHcjzhWiDKf4uj8wCeVcAOhfxS%2DPT8WgOzN678__5Y8lv_fPHgvqywvRA%26u%3DaHR0cHMlM2ElMmYlMmZsYWdnZWQuY29tJTJmZW4lMmZob3Jyb3IlM2ZiaW5nX2NpZCUzZDQ0MSUyNm1zY2xraWQlM2RlN2Q0NjY5ZGI1ODAxYTFkNTUyMzBlOTNkNmUyYWFhMw%26rlid%3De7d4669db5801a1d55230e93d6e2aaa3&vqd=4-155565161280483630028843670210310067031&iurl=%7B1%7DIG%3DB3CFC26300AC4718BADA8A3152DD5704%26CID%3D356F84F4C6226FE424CD912FC7BB6E71%26ID%3DDevEx%2C5052.1.txt'
+2025-04-27 13:03:44,917 - Starting to scrape: https://screenrant.com/horror-games-releasing-2025-ps5-xbox-switch/
+2025-04-27 13:03:44,918 - Error processing URL https://www.gamesradar.com/upcoming-horror-games/: 'NoneType' object has no attribute 'get'
+2025-04-27 13:03:44,918 - Starting to scrape: https://www.noobfeed.com/articles/top-10-upcoming-horror-games-of-2025
+2025-04-27 13:03:44,918 - Error processing URL https://www.youtube.com/watch?v=yzsoTSP6JVM: [Errno 22] Invalid argument: 'scraped_data\\scraped_content\\scraped_content_www.youtube.com_watch?v=yzsoTSP6JVM.txt'
+2025-04-27 13:03:45,375 - Starting to scrape: https://gadgetslogs.com/gaming/horror-games-coming-in-2025/
+2025-04-27 13:03:45,385 - Error processing URL https://comicbook.com/gaming/news/horror-games-new-2025/: 'NoneType' object has no attribute 'get'
+2025-04-27 13:03:46,519 - Starting to scrape: https://www.youtube.com/watch?v=yzsoTSP6JVM
+2025-04-27 13:03:46,528 - Error processing URL https://www.ranker.com/list/most-anticipated-horror-games-2025/gabriel-cook: 'NoneType' object has no attribute 'get'
+2025-04-27 13:03:46,752 - Starting to scrape: https://insider-gaming.com/biggest-horror-games-coming-in-2025/
+2025-04-27 13:03:46,766 - Error processing URL https://www.noobfeed.com/articles/top-10-upcoming-horror-games-of-2025: 'NoneType' object has no attribute 'get'
+2025-04-27 13:03:47,320 - Error processing URL https://screenrant.com/horror-games-releasing-2025-ps5-xbox-switch/: 'NoneType' object has no attribute 'get'
+2025-04-27 13:03:47,385 - Error scraping https://insider-gaming.com/biggest-horror-games-coming-in-2025/: 403 Client Error: Forbidden for url: https://insider-gaming.com/biggest-horror-games-coming-in-2025/
+2025-04-27 13:03:47,463 - Error processing URL https://www.gamespot.com/gallery/the-most-anticipated-horror-games-of-2025-and-beyond/2900-6114/: 'NoneType' object has no attribute 'get'
+2025-04-27 13:03:47,503 - Error processing URL https://gadgetslogs.com/gaming/horror-games-coming-in-2025/: 'NoneType' object has no attribute 'get'
+2025-04-27 13:03:48,627 - Error processing URL https://www.youtube.com/watch?v=yzsoTSP6JVM: [Errno 22] Invalid argument: 'scraped_data\\scraped_content\\scraped_content_www.youtube.com_watch?v=yzsoTSP6JVM.txt'
+2025-04-27 13:11:58,820 - Starting to scrape: https://www.minecraft.net/
+2025-04-27 13:11:58,821 - Starting to scrape: https://www.minecraft.net/en-us/download
+2025-04-27 13:11:58,821 - Starting to scrape: https://www.minecraft.net/en-us/login
+2025-04-27 13:11:58,822 - Starting to scrape: https://www.youtube.com/Minecraft
+2025-04-27 13:11:58,823 - Starting to scrape: https://play.google.com/store/apps/details?id=com.mojang.minecraftpe&hl=en-US
+2025-04-27 13:11:59,153 - Error scraping https://www.minecraft.net/: 'NoneType' object has no attribute 'get'
+2025-04-27 13:11:59,155 - Starting to scrape: https://www.xbox.com/en-US/games/minecraft
+2025-04-27 13:11:59,238 - Error scraping https://www.minecraft.net/en-us/login: 'NoneType' object has no attribute 'get'
+2025-04-27 13:11:59,378 - Error scraping https://www.minecraft.net/en-us/download: 'NoneType' object has no attribute 'get'
+2025-04-27 13:12:00,357 - Error scraping https://www.xbox.com/en-US/games/minecraft: 'NoneType' object has no attribute 'get'
+2025-04-27 16:26:44,856 - Starting to scrape: https://www.thefactsite.com/1000-interesting-facts/
+2025-04-27 16:26:44,857 - Starting to scrape: https://bestlifeonline.com/awesome-facts/
+2025-04-27 16:26:44,857 - Starting to scrape: https://www.rd.com/list/interesting-facts/
+2025-04-27 16:26:44,858 - Starting to scrape: https://www.scarymommy.com/lifestyle/interesting-facts
+2025-04-27 16:26:44,859 - Starting to scrape: https://www.factinate.com/things/fun-random-facts-everything/
+2025-04-27 16:26:45,299 - Error scraping https://www.factinate.com/things/fun-random-facts-everything/: 'NoneType' object has no attribute 'get'
+2025-04-27 16:26:45,299 - Starting to scrape: https://www.factretriever.com/fun-facts
+2025-04-27 16:26:45,417 - Error scraping https://www.rd.com/list/interesting-facts/: 'NoneType' object has no attribute 'get'
+2025-04-27 16:26:45,483 - Error scraping https://www.thefactsite.com/1000-interesting-facts/: 'NoneType' object has no attribute 'get'
+2025-04-27 16:26:45,576 - Error scraping https://bestlifeonline.com/awesome-facts/: 'NoneType' object has no attribute 'get'
+2025-04-27 16:27:26,209 - Starting to scrape: https://www.factretriever.com/video-game-facts
+2025-04-27 16:27:26,210 - Starting to scrape: https://www.thefactsite.com/100-video-game-facts/
+2025-04-27 16:27:26,210 - Starting to scrape: https://facts.net/video-game-facts/
+2025-04-27 16:27:26,211 - Starting to scrape: https://funfactco.com/blogs/fact-blasts/20-video-game-facts-all-gamers-should-know
+2025-04-27 16:27:26,211 - Starting to scrape: https://www.factscrush.com/2023/03/facts-about-video-games.html
+2025-04-27 16:27:26,807 - Error scraping https://www.thefactsite.com/100-video-game-facts/: 'NoneType' object has no attribute 'get'
+2025-04-27 16:27:26,808 - Starting to scrape: https://gameinformer.com/b/features/archive/2017/07/04/25-fun-facts-about-video-games-you-likely-didn-39-t-know.aspx
+2025-04-27 16:27:27,267 - Error scraping https://facts.net/video-game-facts/: 'NoneType' object has no attribute 'get'
+2025-04-27 16:27:27,379 - Error scraping https://www.factscrush.com/2023/03/facts-about-video-games.html: 'NoneType' object has no attribute 'get'
+2025-04-27 16:27:28,201 - Error scraping https://gameinformer.com/b/features/archive/2017/07/04/25-fun-facts-about-video-games-you-likely-didn-39-t-know.aspx: 'NoneType' object has no attribute 'get'
+2025-04-27 16:28:14,538 - Starting to scrape: https://www.webmd.com/sleep-disorders/features/freaky-dreams-what-do-they-mean
+2025-04-27 16:28:14,538 - Starting to scrape: https://parade.com/health/why-am-i-having-crazy-dreams-all-of-a-sudden
+2025-04-27 16:28:14,538 - Starting to scrape: https://www.psychologytoday.com/us/blog/sleep-newzzz/202005/have-you-been-having-weird-dreams-lately-heres-why
+2025-04-27 16:28:14,539 - Starting to scrape: https://www.healthline.com/health/vivid-dreams-causes
+2025-04-27 16:28:14,540 - Starting to scrape: https://www.healthline.com/health/types-of-dreams
+2025-04-27 16:28:14,692 - Error scraping https://parade.com/health/why-am-i-having-crazy-dreams-all-of-a-sudden: 403 Client Error: Forbidden for url: https://parade.com/health/why-am-i-having-crazy-dreams-all-of-a-sudden
+2025-04-27 16:28:14,692 - Starting to scrape: https://www.psychologytoday.com/us/blog/i-hear-you/202306/what-do-weird-dreams-really-mean
+2025-04-27 16:28:14,815 - Error scraping https://www.psychologytoday.com/us/blog/sleep-newzzz/202005/have-you-been-having-weird-dreams-lately-heres-why: 'NoneType' object has no attribute 'get'
+2025-04-27 16:28:14,866 - Error scraping https://www.psychologytoday.com/us/blog/i-hear-you/202306/what-do-weird-dreams-really-mean: 'NoneType' object has no attribute 'get'
+2025-04-27 16:28:14,928 - Error scraping https://www.webmd.com/sleep-disorders/features/freaky-dreams-what-do-they-mean: 'NoneType' object has no attribute 'get'
+2025-04-27 16:28:44,799 - Starting to scrape: https://www.reddit.com/r/weirdbuttrue/
+2025-04-27 16:28:44,800 - Starting to scrape: https://pleated-jeans.com/2024/12/24/unusual-facts-reddit/
+2025-04-27 16:28:44,800 - Starting to scrape: https://www.buzzfeed.com/alliehayes/strangest-unexplainable-stories-reddit
+2025-04-27 16:28:44,800 - Starting to scrape: https://www.ranker.com/list/scariest-true-stories/alyssa-mariano
+2025-04-27 16:28:44,802 - Starting to scrape: https://nypost.com/weird-but-true/
+2025-04-27 16:28:45,041 - Error scraping https://www.ranker.com/list/scariest-true-stories/alyssa-mariano: 'NoneType' object has no attribute 'get'
+2025-04-27 16:28:45,041 - Starting to scrape: https://www.buzzfeed.com/hannahmarder/wildly-unbelievable-facts-that-sound-fake
+2025-04-27 16:28:45,100 - Error scraping https://nypost.com/weird-but-true/: 'NoneType' object has no attribute 'get'
+2025-04-27 16:28:45,134 - Error scraping https://pleated-jeans.com/2024/12/24/unusual-facts-reddit/: 'NoneType' object has no attribute 'get'
+2025-04-27 16:28:45,590 - Error scraping https://www.buzzfeed.com/alliehayes/strangest-unexplainable-stories-reddit: 'NoneType' object has no attribute 'get'
+2025-04-27 16:28:45,786 - Error scraping https://www.buzzfeed.com/hannahmarder/wildly-unbelievable-facts-that-sound-fake: 'NoneType' object has no attribute 'get'
+2025-04-27 16:28:46,145 - Error scraping https://www.reddit.com/r/weirdbuttrue/: 'NoneType' object has no attribute 'get'
+2025-04-28 18:13:51,995 - Starting to scrape: https://www.goodgoodgood.co/articles/random-acts-of-kindness
+2025-04-28 18:13:51,995 - Starting to scrape: https://wholenesshaven.com/26-acts-of-kindness-examples/
+2025-04-28 18:13:51,996 - Starting to scrape: https://ladyandtheblog.com/acts-of-kindness/
+2025-04-28 18:13:51,996 - Starting to scrape: https://www.berkeleywellbeing.com/random-acts-of-kindness.html
+2025-04-28 18:13:51,997 - Starting to scrape: https://www.rd.com/list/quick-simple-acts-of-kindness/
+2025-04-28 18:13:52,258 - Error scraping https://www.rd.com/list/quick-simple-acts-of-kindness/: 'NoneType' object has no attribute 'get'
+2025-04-28 18:13:52,259 - Starting to scrape: https://www.signupgenius.com/groups/random-acts-of-kindness-ideas.cfm
+2025-04-28 18:13:52,423 - Error scraping https://wholenesshaven.com/26-acts-of-kindness-examples/: 'NoneType' object has no attribute 'get'
+2025-04-28 18:13:52,446 - Error scraping https://www.goodgoodgood.co/articles/random-acts-of-kindness: 'NoneType' object has no attribute 'get'
+2025-04-28 18:13:52,530 - Error scraping https://www.berkeleywellbeing.com/random-acts-of-kindness.html: 'NoneType' object has no attribute 'get'
+2025-04-28 18:19:26,161 - Starting to scrape: https://www.goodgoodgood.co/articles/random-acts-of-kindness
+2025-04-28 18:19:26,161 - Starting to scrape: https://www.berkeleywellbeing.com/random-acts-of-kindness.html
+2025-04-28 18:19:26,162 - Starting to scrape: https://www.bradaronson.com/acts-of-kindness/
+2025-04-28 18:19:26,162 - Starting to scrape: https://declutterthemind.com/blog/acts-of-kindness
+2025-04-28 18:19:26,163 - Starting to scrape: https://ladyandtheblog.com/acts-of-kindness/
+2025-04-28 18:19:26,585 - Error scraping https://www.berkeleywellbeing.com/random-acts-of-kindness.html: 'NoneType' object has no attribute 'get'
+2025-04-28 18:19:26,586 - Starting to scrape: https://inspirationfeed.com/random-acts-of-kindness/
+2025-04-28 18:19:26,623 - Error scraping https://www.goodgoodgood.co/articles/random-acts-of-kindness: 'NoneType' object has no attribute 'get'
+2025-04-28 18:19:26,672 - Error scraping https://declutterthemind.com/blog/acts-of-kindness: 'NoneType' object has no attribute 'get'
+2025-04-28 18:19:26,867 - Error scraping https://www.bradaronson.com/acts-of-kindness/: 'NoneType' object has no attribute 'get'
+2025-04-28 18:19:27,158 - Error scraping https://inspirationfeed.com/random-acts-of-kindness/: 'NoneType' object has no attribute 'get'

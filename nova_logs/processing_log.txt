@@ -1,0 +1,102 @@
+{"timestamp": 1745885084.4160132, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745885091.1125028, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745885095.4248614, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745885098.409353, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745885102.3941052, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745885107.3148584, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745885335.5103483, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745885455.2889595, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745885467.1943111, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745885483.220593, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: ['dream']", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745885500.6866624, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745885503.310613, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745885508.8477824, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745885526.1540399, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745885532.058507, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745885988.7910798, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745886050.8560195, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745886050.856468, "step": "moderate_response", "data": []}
+{"timestamp": 1745886063.9214206, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745886063.9218578, "step": "moderate_response", "data": []}
+{"timestamp": 1745886080.0915675, "step": "think", "data": ["Analyzed sentiment: positive", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745886080.0920134, "step": "moderate_response", "data": []}
+{"timestamp": 1745886083.8119345, "step": "think", "data": ["Analyzed sentiment: negative", "Extracted topics: []", "Relevant memories found: 0", "Found relevant fact from scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745886083.8123922, "step": "moderate_response", "data": []}
+{"timestamp": 1745886094.7975347, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745886094.7979555, "step": "moderate_response", "data": []}
+{"timestamp": 1745886095.1253955, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745886095.1258104, "step": "moderate_response", "data": []}
+{"timestamp": 1745886095.8536286, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745886095.8540802, "step": "moderate_response", "data": []}
+{"timestamp": 1745886096.355065, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745886096.3554273, "step": "moderate_response", "data": []}
+{"timestamp": 1745886096.3871849, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745886096.3876078, "step": "moderate_response", "data": []}
+{"timestamp": 1745886096.434038, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745886096.4344425, "step": "moderate_response", "data": []}
+{"timestamp": 1745886096.4666796, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745886096.4671187, "step": "moderate_response", "data": []}
+{"timestamp": 1745886096.4990141, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745886096.49943, "step": "moderate_response", "data": []}
+{"timestamp": 1745886096.5307543, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745886096.5312064, "step": "moderate_response", "data": []}
+{"timestamp": 1745886096.5657005, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745886096.5661187, "step": "moderate_response", "data": []}
+{"timestamp": 1745886096.594063, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745886096.594365, "step": "moderate_response", "data": []}
+{"timestamp": 1745886096.6265516, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745886096.627083, "step": "moderate_response", "data": []}
+{"timestamp": 1745886101.8544059, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: ['dream']", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745886101.8549743, "step": "moderate_response", "data": []}
+{"timestamp": 1745886112.951877, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: ['dream']", "Relevant memories found: 1", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745886112.9523375, "step": "moderate_response", "data": []}
+{"timestamp": 1745886117.1920636, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745886117.1925168, "step": "moderate_response", "data": []}
+{"timestamp": 1745887070.237783, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745887070.2382607, "step": "moderate_response", "data": []}
+{"timestamp": 1745887077.0063841, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745887077.0068102, "step": "moderate_response", "data": []}
+{"timestamp": 1745887079.1830587, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745887079.1835053, "step": "moderate_response", "data": []}
+{"timestamp": 1745887081.191079, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745887081.1915019, "step": "moderate_response", "data": []}
+{"timestamp": 1745887083.215051, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745887083.2155154, "step": "moderate_response", "data": []}
+{"timestamp": 1745887102.6100671, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745887102.6104436, "step": "moderate_response", "data": []}
+{"timestamp": 1745887110.8911965, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745887110.8915796, "step": "moderate_response", "data": []}
+{"timestamp": 1745887194.2781873, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745887194.2786107, "step": "moderate_response", "data": []}
+{"timestamp": 1745887198.7189217, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745887198.7193677, "step": "moderate_response", "data": []}
+{"timestamp": 1745887203.711481, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745887203.7118886, "step": "moderate_response", "data": []}
+{"timestamp": 1745887214.7845964, "step": "think", "data": ["Analyzed sentiment: negative", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745887214.7850182, "step": "moderate_response", "data": []}
+{"timestamp": 1745887221.473552, "step": "think", "data": ["Analyzed sentiment: negative", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745887221.4739914, "step": "moderate_response", "data": []}
+{"timestamp": 1745887231.5309603, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745887231.531424, "step": "moderate_response", "data": []}
+{"timestamp": 1745887334.5704255, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745887334.570925, "step": "moderate_response", "data": []}
+{"timestamp": 1745887338.1374588, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745887338.1379304, "step": "moderate_response", "data": []}
+{"timestamp": 1745887353.54819, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745887353.5487945, "step": "moderate_response", "data": []}
+{"timestamp": 1745887356.93959, "step": "think", "data": ["Analyzed sentiment: positive", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745887356.9400556, "step": "moderate_response", "data": []}
+{"timestamp": 1745887360.9722667, "step": "think", "data": ["Analyzed sentiment: positive", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745887360.9727366, "step": "moderate_response", "data": []}
+{"timestamp": 1745887365.6764483, "step": "think", "data": ["Analyzed sentiment: positive", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745887365.6769474, "step": "moderate_response", "data": []}
+{"timestamp": 1745887368.933063, "step": "think", "data": ["Analyzed sentiment: negative", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745887368.9335203, "step": "moderate_response", "data": []}
+{"timestamp": 1745887384.4954543, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: ['dream']", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745887384.4959042, "step": "moderate_response", "data": []}
+{"timestamp": 1745887391.9683602, "step": "think", "data": ["Analyzed sentiment: positive", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745887391.9687269, "step": "moderate_response", "data": []}
+{"timestamp": 1745887424.7162645, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745887424.7166915, "step": "moderate_response", "data": []}
+{"timestamp": 1745887671.0611212, "step": "think", "data": ["Analyzed sentiment: neutral", "Extracted topics: []", "Relevant memories found: 0", "No relevant fact found in scraped data.", "Personality bias: curiosity - I'm really curious about this."]}
+{"timestamp": 1745887671.0615191, "step": "moderate_response", "data": []}

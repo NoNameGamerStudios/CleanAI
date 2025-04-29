@@ -1,0 +1,89 @@
+2025-04-28 18:14:29,776 - Starting to scrape: https://niceact.org/
+2025-04-28 18:14:29,777 - Starting to scrape: https://www.congress.gov/bill/117th-congress/house-bill/5816/text
+2025-04-28 18:14:29,778 - Starting to scrape: https://www.congress.gov/117/bills/hr5816/BILLS-117hr5816ih.pdf
+2025-04-28 18:14:29,779 - Starting to scrape: https://niceact.org/faqs/
+2025-04-28 18:14:29,780 - Starting to scrape: https://www.govtrack.us/congress/bills/117/hr5816
+2025-04-28 18:14:29,982 - Error scraping https://www.congress.gov/bill/117th-congress/house-bill/5816/text: 403 Client Error: Forbidden for url: https://www.congress.gov/bill/117th-congress/house-bill/5816/text
+2025-04-28 18:14:29,982 - Starting to scrape: https://niceact.org/take-action/
+2025-04-28 18:14:30,099 - Error scraping https://niceact.org/: 'NoneType' object has no attribute 'get'
+2025-04-28 18:14:30,960 - Error scraping https://www.govtrack.us/congress/bills/117/hr5816: 'NoneType' object has no attribute 'get'
+2025-04-28 18:14:30,985 - Error scraping https://niceact.org/take-action/: 'NoneType' object has no attribute 'get'
+2025-04-28 18:14:31,106 - Error scraping https://niceact.org/faqs/: 'NoneType' object has no attribute 'get'
+2025-04-28 18:14:31,982 - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2025-04-28 19:15:32,597 - Starting to scrape: https://www.weareteachers.com/teen-slang/
+2025-04-28 19:15:32,597 - Starting to scrape: https://www.spokenenglishpractice.com/15-new-english-slang-words-you-should-know-in-2025/
+2025-04-28 19:15:32,597 - Starting to scrape: https://momydady.com/teenage/teen-slangs-words/
+2025-04-28 19:15:32,597 - Starting to scrape: https://www.countryadventures.net/19-common-slang-terms-youll-need-to-survive-2025-conversations/
+2025-04-28 19:15:32,597 - Starting to scrape: https://fossbytes.com/top-100-american-slang-words-in-2025/
+2025-04-28 19:15:32,825 - Error scraping https://www.weareteachers.com/teen-slang/: 403 Client Error: Forbidden for url: https://www.weareteachers.com/teen-slang/
+2025-04-28 19:15:32,825 - Starting to scrape: https://www.ohla.com/blog/top-10-slang-words-to-know-in-2025/
+2025-04-28 19:15:32,898 - Error scraping https://www.countryadventures.net/19-common-slang-terms-youll-need-to-survive-2025-conversations/: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-04-28 19:15:32,949 - Error scraping https://fossbytes.com/top-100-american-slang-words-in-2025/: 'NoneType' object has no attribute 'get'
+2025-04-28 19:15:33,100 - Error scraping https://momydady.com/teenage/teen-slangs-words/: 'NoneType' object has no attribute 'get'
+2025-04-28 19:15:33,281 - Error scraping https://www.ohla.com/blog/top-10-slang-words-to-know-in-2025/: 'NoneType' object has no attribute 'get'
+2025-04-28 19:15:34,948 - Error scraping https://www.spokenenglishpractice.com/15-new-english-slang-words-you-should-know-in-2025/: 'NoneType' object has no attribute 'get'
+2025-04-28 19:58:07,405 - Starting to scrape: https://www.wikihow.com/Be-a-Good-Person
+2025-04-28 19:58:07,405 - Starting to scrape: https://www.wikihow.com/Be-a-Better-Person
+2025-04-28 19:58:07,406 - Starting to scrape: https://www.lifehack.org/articles/communication/9-ways-better-person.html
+2025-04-28 19:58:07,407 - Starting to scrape: https://www.verywellmind.com/how-to-be-a-better-person-4167628
+2025-04-28 19:58:07,408 - Starting to scrape: https://www.psychologytoday.com/us/blog/the-path-to-passionate-happiness/202209/the-guide-to-being-a-good-human-being
+2025-04-28 19:58:07,669 - Error scraping https://www.wikihow.com/Be-a-Better-Person: 'NoneType' object has no attribute 'get'
+2025-04-28 19:58:07,670 - Starting to scrape: https://www.believeinmind.com/know_thyself/how-to-be-a-good-person/
+2025-04-28 19:58:07,718 - Error scraping https://www.psychologytoday.com/us/blog/the-path-to-passionate-happiness/202209/the-guide-to-being-a-good-human-being: 'NoneType' object has no attribute 'get'
+2025-04-28 19:58:07,821 - Error scraping https://www.wikihow.com/Be-a-Good-Person: 'NoneType' object has no attribute 'get'
+2025-04-28 19:58:07,869 - Error scraping https://www.verywellmind.com/how-to-be-a-better-person-4167628: 'NoneType' object has no attribute 'get'
+2025-04-28 19:58:07,912 - Error scraping https://www.lifehack.org/articles/communication/9-ways-better-person.html: 'NoneType' object has no attribute 'get'
+2025-04-28 19:58:08,159 - Error scraping https://www.believeinmind.com/know_thyself/how-to-be-a-good-person/: 'NoneType' object has no attribute 'get'
+2025-04-28 20:28:20,482 - Starting to scrape: https://www.wired.com/story/why-do-we-dream-what-are-dreams/
+2025-04-28 20:28:20,482 - Starting to scrape: https://www.sleepfoundation.org/dreams
+2025-04-28 20:28:20,483 - Starting to scrape: https://www.healthline.com/health/why-do-we-dream
+2025-04-28 20:28:20,484 - Starting to scrape: https://www.webmd.com/sleep-disorders/dreaming-overview
+2025-04-28 20:28:20,484 - Starting to scrape: https://www.psychologytoday.com/us/blog/your-brain-on-food/202312/how-and-why-does-the-brain-create-dreams
+2025-04-28 20:28:20,904 - Starting to scrape: https://health.clevelandclinic.org/why-do-we-dream
+2025-04-28 20:28:20,917 - Error scraping https://www.sleepfoundation.org/dreams: 403 Client Error: Forbidden for url: https://www.sleepfoundation.org/dreams
+2025-04-28 20:28:20,917 - Starting to scrape: https://www.verywellmind.com/why-do-we-dream-top-dream-theories-2795931
+2025-04-28 20:28:21,089 - Starting to scrape: https://scientificorigin.com/why-do-we-have-dreams-examining-the-theories-and-research-on-the-purposes-and-meanings-of-dreams
+2025-04-28 20:28:21,498 - Starting to scrape: https://practicalpie.com/why-do-we-dream/
+2025-04-28 20:28:21,528 - Starting to scrape: https://discover.hubpages.com/health/Why-Do-People-Have-Dreams
+2025-04-28 20:28:21,761 - Error scraping https://discover.hubpages.com/health/Why-Do-People-Have-Dreams: 403 Client Error: Forbidden for url: https://discover.hubpages.com/health/Why-Do-People-Have-Dreams
+2025-04-28 20:31:35,999 - Starting to scrape: https://en.wikipedia.org/wiki/Morality
+2025-04-28 20:31:36,000 - Starting to scrape: https://www.merriam-webster.com/dictionary/moral
+2025-04-28 20:31:36,000 - Starting to scrape: https://www.verywellmind.com/morality-vs-ethics-what-s-the-difference-5195271
+2025-04-28 20:31:36,001 - Starting to scrape: https://www.verywellmind.com/what-is-morality-5076160
+2025-04-28 20:31:36,002 - Starting to scrape: https://www.psychologytoday.com/us/basics/ethics-and-morality
+2025-04-28 20:31:36,351 - Starting to scrape: https://dictionary.cambridge.org/dictionary/english/moral
+2025-04-28 20:31:36,509 - Starting to scrape: https://www.verywellmind.com/what-are-moral-principles-5198602
+2025-04-28 20:31:36,554 - Starting to scrape: https://ethicsunwrapped.utexas.edu/glossary/morals
+2025-04-28 20:31:36,688 - Starting to scrape: https://www.britannica.com/topic/morality
+2025-04-28 20:31:37,117 - Starting to scrape: https://www.britannica.com/dictionary/moral
+2025-04-28 20:31:37,219 - Starting to scrape: https://helpfulprofessor.com/morals-examples/
+2025-04-28 20:34:49,325 - Starting to scrape: https://www.wikihow.com/Be-a-Good-Person
+2025-04-28 20:34:49,325 - Starting to scrape: https://www.wikihow.com/Be-a-Better-Person
+2025-04-28 20:34:49,326 - Starting to scrape: https://www.lifehack.org/articles/communication/9-ways-better-person.html
+2025-04-28 20:34:49,326 - Starting to scrape: https://www.psychologytoday.com/us/blog/the-path-to-passionate-happiness/202209/the-guide-to-being-a-good-human-being
+2025-04-28 20:34:49,327 - Starting to scrape: https://www.believeinmind.com/know_thyself/how-to-be-a-good-person/
+2025-04-28 20:34:49,610 - Starting to scrape: https://www.verywellmind.com/how-to-be-a-better-person-4167628
+2025-04-28 20:34:49,705 - Starting to scrape: https://www.healthline.com/health/how-to-be-a-better-person
+2025-04-28 20:34:49,744 - Starting to scrape: https://www.betterhelp.com/advice/how-to/how-to-be-a-good-person-and-why-it-matters/
+2025-04-28 20:34:49,783 - Starting to scrape: https://partnersinfire.com/lifestyle/how-to-be-a-good-person/
+2025-04-28 20:34:49,970 - Starting to scrape: https://www.npr.org/2025/04/04/g-s1-58005/why-its-so-hard-live-up-your-idea-good-person
+2025-04-28 20:34:50,043 - Starting to scrape: https://www.minimalismmadesimple.com/home/good-person/
+2025-04-28 20:35:00,158 - Error scraping https://partnersinfire.com/lifestyle/how-to-be-a-good-person/: HTTPSConnectionPool(host='partnersinfire.com', port=443): Read timed out. (read timeout=10)
+2025-04-28 22:11:50,313 - Starting to scrape: https://en.wikipedia.org/wiki/Webster's_Dictionary
+2025-04-28 22:11:50,313 - Starting to scrape: https://www.merriam-webster.com
+2025-04-28 22:11:50,313 - Starting to scrape: https://www.merriam-webster.com/
+2025-04-28 22:11:50,314 - Starting to scrape: https://www.merriam-webster.com/dictionary/dictionary
+2025-04-28 22:11:50,314 - Starting to scrape: https://www.merriam-webster.com/thesaurus
+2025-04-28 22:11:51,064 - Starting to scrape: https://webster-dictionary.net/
+2025-04-28 22:11:51,177 - Starting to scrape: https://www.yourdictionary.com/about/websters-new-world-college-dictionary.html
+2025-04-28 22:11:51,239 - Starting to scrape: https://apps.apple.com/us/app/merriam-webster-dictionary/id399452287
+2025-04-28 22:11:51,307 - Starting to scrape: https://www.merriam-webster.com/dictionary/definition
+2025-04-28 22:11:51,739 - Error scraping https://apps.apple.com/us/app/merriam-webster-dictionary/id399452287: No connection adapters were found for 'itms-appss://apps.apple.com/us/app/merriam-webster-dictionary/id399452287'
+2025-04-28 22:11:51,766 - Starting to scrape: https://play.google.com/store/apps/details?id=com.merriamwebster&hl=en-US
+2025-04-28 22:11:51,766 - Starting to scrape: https://shop.merriam-webster.com/products/the-merriam-webster-dictionary-newest-edition
+2025-04-28 22:11:51,792 - Starting to scrape: https://www.britannica.com/topic/Merriam-Webster-dictionary
+2025-04-28 22:11:51,812 - Starting to scrape: https://www.merriam-webster.com/kids
+2025-04-28 22:11:52,327 - Starting to scrape: https://www.merriam-webster.com/word-of-the-day
+2025-04-28 22:11:52,329 - Starting to scrape: https://www.merriam-webster.com/apps
+2025-04-28 22:11:52,352 - Starting to scrape: https://www.merriam-webster.com/wordplay/noah-webster-dictionary
+2025-04-28 22:11:52,390 - Starting to scrape: https://en.wikipedia.org/wiki/Merriam-Webster
