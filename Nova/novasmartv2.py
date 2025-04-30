@@ -5,6 +5,7 @@ import time
 import json
 import string
 import re
+import torch
 from nueral_model import score_options
 from moralcoach import moral_score
 from naturalitycoach import natural_score

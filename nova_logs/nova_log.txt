@@ -1,0 +1,4 @@
+You: Hi
+Nova: I've been wondering, I'm here if you want to share more.
+2025-04-30 07:16:51,270 - You: Hi
+Nova: I've been wondering, I'm here if you want to share more.

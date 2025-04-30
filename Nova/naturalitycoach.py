@@ -17,11 +17,31 @@ class NaturalCoach(nn.Module):
         return self.fc2(x)
 
 def load_coach_dataset():
+    import re
     base_dir = os.path.dirname(__file__)
-    data_path = os.path.join(base_dir, "..", "datasets", "natural_real", "NATURALdata.txt")
+    data_path = os.path.join(base_dir, "datasets", "natural_real", "NATURALdata.txt")
     if not os.path.exists(data_path):
-        f
-    df = pd.read_csv(data_path)
+        raise FileNotFoundError(f"Dataset not found at {data_path}")
+
+    lines = []
+    usernames = []
+    current_user = None
+
+    with open(data_path, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            # Detect username lines (e.g., "KingKarma, Yesterday 7:22 PM")
+            if line and "," in line and not any(x in line for x in ["AM", "PM", "min", "Now", "Edited"]) and not line.startswith("//"):
+                # Extract username before the first comma
+                current_user = line.split(",")[0].strip()
+                continue
+            # If it's a message line and we have a user, keep it
+            if line and current_user:
+                usernames.append(current_user)
+                lines.append(line)
+
+    import pandas as pd
+    df = pd.DataFrame({"user": usernames, "text": lines})
     return df
 
 # Load dataset and fit TF-IDF vectorizer once
