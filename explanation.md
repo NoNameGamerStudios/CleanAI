@@ -47,25 +47,26 @@ def load_scraped_data():
 
 Nova Class: Initialization
 class Nova:
-    def __init__(self):
-        self.memory = []
-        self.scraped_data = load_scraped_data()
-        self.favorite_memory = None
-        self.last_topic = None
-        self.conversation_history = []
-        self.awaiting_continue = False
-        # ... more attributes ...
-        self.personality = {
-            "kindness": 0.0,
-            "curiosity": 0.8,
-            "trust": 0.0,
-            "happiness": -0.1,
-            "openness": 0.0,
-            "playfulness": 0.1
-        }
-        self.load_personality()
-        self.load_memory()
-        self.is_on = True
+
+     def __init__(self):
+            self.memory = []
+         self.scraped_data = load_scraped_data()
+            self.favorite_memory = None
+            self.last_topic = None
+            self.conversation_history = []
+            self.awaiting_continue = False
+            # ... more attributes ...
+            self.personality = {
+                "kindness": 0.0,
+                "curiosity": 0.8,
+                "trust": 0.0,
+                "happiness": -0.1,
+                "openness": 0.0,
+             "playfulness": 0.1
+            }
+            self.load_personality()
+            self.load_memory()
+            self.is_on = True
 
 **Initializes Nova’s state: memory, scraped data, conversation history, and personality traits.**
 **Loads personality and memory from files.**
