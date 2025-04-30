@@ -115,6 +115,7 @@ Combines scores and selects the best response.
 Optionally returns a reasoning log for transparency.
 
 Conversation Handling: talk Method
+
         def talk(self, user_input):
         user_input = user_input.strip()
         self.conversation_history.append((user_input, None))
@@ -160,6 +161,7 @@ learn_from_conversation: Learns new facts from user corrections.
 shutdown / startup: Powers Nova off/on.
 
 Main Loop
+
         if __name__ == "__main__":
         nova = Nova()
         print("Nova is ready to chat! ✨")
