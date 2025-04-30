@@ -5,6 +5,9 @@ import time
 import json
 import string
 import re
+from nueral_model import score_options
+from moralcoach import moral_score
+from naturalitycoach import natural_score
 
 # Set up logging
 log_folder = "nova_logs"
@@ -35,6 +38,7 @@ class Nova:
         self.favorite_memory = None
         self.last_topic = None
         self.conversation_history = []
+        self.awaiting_continue = False
        
         self.reactions = [
             "Haha, that's pretty funny!",
@@ -229,114 +233,41 @@ class Nova:
         return None
 
     def think(self, user_input, return_log=False):
-        if self.stop_conversation(user_input):
-            response = "Okay, I'll stop talking about that. Let me know if you want to chat about something else!"
-            if return_log:
-                return response, ["User requested to stop conversation."]
-            return response
-
-        """
-        Nova's advanced reasoning engine: synthesizes memories, facts, personality, and self-questioning
-        to form a thoughtful, human-like response. Logs her reasoning process for transparency.
-        """
         reasoning_log = []
 
-        # 1. Analyze the user's intent and sentiment
-        sentiment = self.analyze_sentiment(user_input)
-        reasoning_log.append(f"Analyzed sentiment: {sentiment}")
+        # Generate candidate responses (expand as needed)
+        candidate_responses = [
+            f"{self.personality_prefix()}What else would you like to talk about?",
+            f"{self.personality_prefix()}I'm here if you want to share more.",
+            f"{self.personality_prefix()}That sounds interesting! Tell me more?",
+        ]
 
-        # 2. Extract topics from the input
-        topics = self.extract_topic(user_input)
-        reasoning_log.append(f"Extracted topics: {topics}")
+        # Get logic/coach scores (from nueral_model)
+        logic_response, logic_scores = score_options(user_input, candidate_responses)
+        reasoning_log.append(f"Logic scores: {logic_scores}")
 
-        # 3. Recall relevant memories
-        relevant_memories = []
-        if self.memory:
-            for m in self.memory[-10:]:
-                if any(topic in m["user_input"].lower() for topic in topics):
-                    relevant_memories.append(m)
-        reasoning_log.append(f"Relevant memories found: {len(relevant_memories)}")
+        # Get moral scores (from moralcoach)
+        moral_scores = [moral_score(resp) for resp in candidate_responses]
+        reasoning_log.append(f"Moral scores: {moral_scores}")
 
-        # 4. Gather facts from scraped data
-        fact = self.get_scraped_response(user_input)
-        if fact:
-            reasoning_log.append("Found relevant fact from scraped data.")
-        else:
-            reasoning_log.append("No relevant fact found in scraped data.")
+        # Get naturalness scores (from naturalitycoach)
+        natural_scores = [natural_score(resp) for resp in candidate_responses]
+        reasoning_log.append(f"Natural scores: {natural_scores}")
 
-        # 5. Self-questioning and speculation
-        self_questions = []
-        if topics:
-            self_questions.append(f"Why did the user mention {', '.join(topics)}?")
-        if sentiment == "negative":
-            self_questions.append("Is the user upset? Should I comfort them?")
-        elif sentiment == "positive":
-            self_questions.append("Can I celebrate with them or share their joy?")
-        elif sentiment == "derrogatory":
-            self_questions.append("Is the user mad at me? Should I apologize? What did i do wrong?")
-        
-        
-        if not topics and self.last_topic:
-            self_questions.append(f"Should I bring up our last topic: {self.last_topic}?")
-        if not topics and not self.last_topic:
-            self_questions.append("What should we do next?")
-        s_topic_starter = self.proactive_topic_starter()
-        
-        if s_topic_starter:
-            self_questions.append(f"How about we talk about {s_topic_starter}?")
-        if self_questions:
-            reasoning_log.append(f"Generated self-questions: {self_questions}")
+        # Combine scores (simple sum, or use weights if you want)
+        combined_scores = [
+            logic + moral + natural
+            for logic, moral, natural in zip(logic_scores, moral_scores, natural_scores)
+        ]
+        best_idx = int(torch.argmax(torch.tensor(combined_scores)))
+        best_response = candidate_responses[best_idx]
 
-        # 6. Formulate a hypothesis or opinion based on personality
-        dominant = self.get_dominant_personality()
-        personality_bias = {
-            "curiosity": "I'm really curious about this.",
-            "kindness": "I want to be supportive.",
-            "playfulness": "Let's have some fun with this idea.",
-            "happiness": "This makes me feel positive.",
-            "trust": "I trust your perspective.",
-            "openness": "I'm open to new ideas."
-        }
-        bias_statement = personality_bias.get(dominant, "")
-        reasoning_log.append(f"Personality bias: {dominant} - {bias_statement}")
+        reasoning_log.append(f"Combined scores: {combined_scores}")
+        reasoning_log.append(f"Chose response for best combined score: {combined_scores[best_idx]:.2f}")
 
-        # 7. Synthesize a response with speculation, memory, and opinion
-        response_parts = []
-        if topics:
-            response_parts.append(f"{bias_statement} You mentioned {', '.join(topics)}.")
-            if dominant == "curiosity":
-                response_parts.append(f"I wonder what led you to think about {', '.join(topics)}?")
-            if dominant == "playfulness":
-                response_parts.append(f"Imagine if {', '.join(topics)} happened on stream!")
-        if not topics and self.last_topic:
-            response_parts.append(f"Earlier, we talked about {self.last_topic}. Want to continue?")
-        if relevant_memories:
-            mem = random.choice(relevant_memories)
-            response_parts.append(f"I remember you once said: \"{mem['user_input']}\".")
-        if fact:
-            response_parts.append(self.natural_response(fact, user_input))
-        if sentiment == "positive":
-            response_parts.append("That makes me feel happy! 😊")
-        elif sentiment == "negative":
-            response_parts.append("I'm sensing some negative feelings. I'm here for you.")
-        # Speculate or reflect if nothing else
-        if not response_parts:
-            if self_questions:
-                response_parts.append("I'm thinking about your message. " + " ".join(self_questions))
-            else:
-                response_parts.append("I'm thinking about what you said. Can you tell me more?")
-
-        # 8. Log the reasoning process
-        self.log_processing("think", reasoning_log)
-
-        # 9. Optionally, share reasoning if openness is high
-        if self.personality.get("openness", 0) > 0.7 and random.random() < self.personality.get("openness", 0):
-            response_parts.append(f"(Here's how I thought about your message: {reasoning_log})")
-
-        response = " ".join(response_parts)
         if return_log:
-            return response, reasoning_log
-        return response
+            return best_response, reasoning_log
+        return best_response
 
     def talk(self, user_input):
         user_input = user_input.strip()
