@@ -123,6 +123,20 @@ class Nova:
                 if last.get("user_input") and last.get("response"):
                     f.write(f"You: {last['user_input']}\n")
                     f.write(f"Nova: {last['response']}\n")
+    
+   
+        def sendresponse(self, response):
+    log_folder = os.path.join("coach_train", "sentresponses")
+    os.makedirs(log_folder, exist_ok=True)  # Ensure the "sentresponses" folder exists
+    with open(os.path.join(log_folder, "responses.txt"), "a", encoding="utf-8") as f:
+        # Log the provided response
+        f.write(f"{time.strftime('%Y-%m-%d %H:%M:%S')} - Response: {response}\n")
+        # Log the last private dream if available
+        if self.private_dreams:
+            dream = self.private_dreams[-1]
+            f.write(f"{time.strftime('%Y-%m-%d %H:%M:%S')} - Dream: {dream}\n")
+       
+
 
     def save_dream(self):
         log_folder = os.path.join("nova_memory", "dreams")

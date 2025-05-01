@@ -57,3 +57,25 @@ def natural_score(candidate):
     # Score is the max similarity to any real response (higher = more natural)
     return float(similarities.max())
 
+def process_nova_response(user_message, nova_response):
+    """
+    Process Nova's response to the user and compute its naturality score.
+    """
+    try:
+        print(f"User Message: {user_message}")
+        print(f"Nova's Response: {nova_response}")
+        score = natural_score(nova_response)
+        print(f"Naturality Score: {score}")
+        return score
+    except Exception as e:
+        print(f"Error processing Nova's response: {e}")
+        return None
+
+# Example usage
+if __name__ == "__main__":
+    # Simulate a user message and Nova's response
+    user_message = "What is the weather like today?"
+    nova_response = "The weather today is sunny with a high of 25°C."
+    
+    process_nova_response(user_message, nova_response)
+
