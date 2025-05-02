@@ -1,59 +1,27 @@
-{"timestamp": 1746126576.6015086, "step": "moderate_response", "data": []}
-{"timestamp": 1746126580.9435985, "step": "moderate_response", "data": []}
-{"timestamp": 1746126844.2099826, "step": "moderate_response", "data": []}
-{"timestamp": 1746126844.3168666, "step": "moderate_response", "data": []}
-{"timestamp": 1746126846.877986, "step": "moderate_response", "data": []}
-{"timestamp": 1746126849.909191, "step": "moderate_response", "data": []}
-{"timestamp": 1746126855.2103472, "step": "moderate_response", "data": []}
-{"timestamp": 1746127045.7143986, "step": "moderate_response", "data": []}
-{"timestamp": 1746127049.0439253, "step": "moderate_response", "data": []}
-{"timestamp": 1746127051.394139, "step": "moderate_response", "data": []}
-{"timestamp": 1746127055.742316, "step": "moderate_response", "data": []}
-{"timestamp": 1746127060.0720341, "step": "moderate_response", "data": []}
-{"timestamp": 1746127063.3642797, "step": "moderate_response", "data": []}
-{"timestamp": 1746127065.5067356, "step": "moderate_response", "data": []}
-{"timestamp": 1746127068.1834216, "step": "moderate_response", "data": []}
-{"timestamp": 1746127077.0975885, "step": "moderate_response", "data": []}
-{"timestamp": 1746127080.1925125, "step": "moderate_response", "data": []}
-{"timestamp": 1746127083.3397524, "step": "moderate_response", "data": []}
-{"timestamp": 1746127084.1013522, "step": "moderate_response", "data": []}
-{"timestamp": 1746127084.6708822, "step": "moderate_response", "data": []}
-{"timestamp": 1746127085.0290642, "step": "moderate_response", "data": []}
-{"timestamp": 1746127085.2129786, "step": "moderate_response", "data": []}
-{"timestamp": 1746127085.2948484, "step": "moderate_response", "data": []}
-{"timestamp": 1746127085.4208667, "step": "moderate_response", "data": []}
-{"timestamp": 1746127085.4934616, "step": "moderate_response", "data": []}
-{"timestamp": 1746127085.6168437, "step": "moderate_response", "data": []}
-{"timestamp": 1746127085.7064285, "step": "moderate_response", "data": []}
-{"timestamp": 1746127085.903231, "step": "moderate_response", "data": []}
-{"timestamp": 1746127085.9511335, "step": "moderate_response", "data": []}
-{"timestamp": 1746127086.0875368, "step": "moderate_response", "data": []}
-{"timestamp": 1746127086.120039, "step": "moderate_response", "data": []}
-{"timestamp": 1746127086.2246547, "step": "moderate_response", "data": []}
-{"timestamp": 1746127086.2739286, "step": "moderate_response", "data": []}
-{"timestamp": 1746127086.400257, "step": "moderate_response", "data": []}
-{"timestamp": 1746127086.4865382, "step": "moderate_response", "data": []}
-{"timestamp": 1746127086.5890412, "step": "moderate_response", "data": []}
-{"timestamp": 1746127086.6994243, "step": "moderate_response", "data": []}
-{"timestamp": 1746127086.790205, "step": "moderate_response", "data": []}
-{"timestamp": 1746127086.873282, "step": "moderate_response", "data": []}
-{"timestamp": 1746127086.9738476, "step": "moderate_response", "data": []}
-{"timestamp": 1746127087.0695908, "step": "moderate_response", "data": []}
-{"timestamp": 1746127087.1576517, "step": "moderate_response", "data": []}
-{"timestamp": 1746127087.3201578, "step": "moderate_response", "data": []}
-{"timestamp": 1746127087.4999058, "step": "moderate_response", "data": []}
-{"timestamp": 1746127087.6077023, "step": "moderate_response", "data": []}
-{"timestamp": 1746127087.6874592, "step": "moderate_response", "data": []}
-{"timestamp": 1746127087.7724826, "step": "moderate_response", "data": []}
-{"timestamp": 1746127087.9448168, "step": "moderate_response", "data": []}
-{"timestamp": 1746127088.0711775, "step": "moderate_response", "data": []}
-{"timestamp": 1746127088.1825724, "step": "moderate_response", "data": []}
-{"timestamp": 1746127088.2532437, "step": "moderate_response", "data": []}
-{"timestamp": 1746127088.3719974, "step": "moderate_response", "data": []}
-{"timestamp": 1746127088.5031917, "step": "moderate_response", "data": []}
-{"timestamp": 1746127088.591349, "step": "moderate_response", "data": []}
-{"timestamp": 1746127088.7028513, "step": "moderate_response", "data": []}
-{"timestamp": 1746127088.8018887, "step": "moderate_response", "data": []}
-{"timestamp": 1746127088.8969104, "step": "moderate_response", "data": []}
-{"timestamp": 1746127089.0131023, "step": "moderate_response", "data": []}
-{"timestamp": 1746127089.0891485, "step": "moderate_response", "data": []}
+{"timestamp": 1746141772.2967908, "step": "think_start", "data": {"user_input": "hi"}}
+{"timestamp": 1746141772.3045332, "step": "think_end", "data": {"chosen_response": "\ud83e\udd14 That sounds interesting! Tell me more?"}}
+{"timestamp": 1746141772.304898, "step": "moderate_response", "data": []}
+{"timestamp": 1746141849.384902, "step": "think_start", "data": {"user_input": "no"}}
+{"timestamp": 1746141849.3919125, "step": "think_end", "data": {"chosen_response": "I've been wondering, I'm here if you want to share more."}}
+{"timestamp": 1746141849.3923051, "step": "moderate_response", "data": []}
+{"timestamp": 1746141895.9688106, "step": "think_start", "data": {"user_input": "whT"}}
+{"timestamp": 1746141895.975958, "step": "think_end", "data": {"chosen_response": "I've been wondering, What else would you like to talk about?"}}
+{"timestamp": 1746141895.976648, "step": "moderate_response", "data": []}
+{"timestamp": 1746141903.4006207, "step": "think_start", "data": {"user_input": "nothing"}}
+{"timestamp": 1746141903.4075902, "step": "think_end", "data": {"chosen_response": "I've been wondering, What else would you like to talk about?"}}
+{"timestamp": 1746141903.407999, "step": "moderate_response", "data": []}
+{"timestamp": 1746141968.6645763, "step": "think_start", "data": {"user_input": "Nothing"}}
+{"timestamp": 1746141968.6717012, "step": "think_end", "data": {"chosen_response": "I've been wondering, That sounds interesting! Tell me more?"}}
+{"timestamp": 1746141968.6721423, "step": "moderate_response", "data": []}
+{"timestamp": 1746142239.7044861, "step": "think_start", "data": {"user_input": "No"}}
+{"timestamp": 1746142239.7118938, "step": "think_end", "data": {"chosen_response": "I've been wondering, I'm here if you want to share more."}}
+{"timestamp": 1746142239.7122803, "step": "moderate_response", "data": []}
+{"timestamp": 1746204763.8094378, "step": "think_start", "data": {"user_input": "Hi"}}
+{"timestamp": 1746204763.8173356, "step": "think_end", "data": {"chosen_response": "I've been wondering, I was thinking about None"}}
+{"timestamp": 1746204763.8177488, "step": "moderate_response", "data": []}
+{"timestamp": 1746204766.376537, "step": "think_start", "data": {"user_input": "No"}}
+{"timestamp": 1746204766.383442, "step": "think_end", "data": {"chosen_response": "I've been wondering, Wait, was it Izzie?"}}
+{"timestamp": 1746204766.3838515, "step": "moderate_response", "data": []}
+{"timestamp": 1746204787.4963903, "step": "think_start", "data": {"user_input": "what"}}
+{"timestamp": 1746204787.5032318, "step": "think_end", "data": {"chosen_response": "I've been wondering, I was thinking about None"}}
+{"timestamp": 1746204787.5036285, "step": "moderate_response", "data": []}

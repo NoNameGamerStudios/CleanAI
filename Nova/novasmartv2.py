@@ -20,6 +20,7 @@ thoughts_folder = "nova_memory/thoughts"
 memory_file = "nova_memory/personality.json"
 saved_memory_file = "nova_memory/memories.json"
 
+
 # Utility function to load scraped facts
 def load_scraped_data():
     scraped_data = {}
@@ -125,16 +126,29 @@ class Nova:
                     f.write(f"Nova: {last['response']}\n")
     
    
-        def sendresponse(self, response):
-    log_folder = os.path.join("coach_train", "sentresponses")
-    os.makedirs(log_folder, exist_ok=True)  # Ensure the "sentresponses" folder exists
-    with open(os.path.join(log_folder, "responses.txt"), "a", encoding="utf-8") as f:
-        # Log the provided response
-        f.write(f"{time.strftime('%Y-%m-%d %H:%M:%S')} - Response: {response}\n")
-        # Log the last private dream if available
-        if self.private_dreams:
-            dream = self.private_dreams[-1]
-            f.write(f"{time.strftime('%Y-%m-%d %H:%M:%S')} - Dream: {dream}\n")
+    def sendresponse(self, response):
+            coachfolder = os.path.join("Nova/coach_train")
+            os.makedirs(coachfolder, exist_ok=True)  # Ensure the folder exists
+            json_path = os.path.join(coachfolder, "sentresponses.json")
+            # Prepare the data to append
+            data = {
+                "timestamp": time.time(),
+                "response": response
+            }
+            # Read existing data if file exists, else start a new list
+            if os.path.exists(json_path):
+                with open(json_path, "r", encoding="utf-8") as f:
+                    try:
+                        responses = json.load(f)
+                    except json.JSONDecodeError:
+                     responses = []
+            else:
+                responses = []
+            # Append the new response
+            responses.append(data)
+             # Write back to the file
+            with open(json_path, "w", encoding="utf-8") as f:
+              json.dump(responses, f, indent=2)
        
 
 
@@ -248,14 +262,18 @@ class Nova:
         return None
 
     def think(self, user_input, return_log=False):
+        self.log_processing("think_start", {"user_input": user_input})
         reasoning_log = []
 
         # Generate candidate responses (expand as needed)
         candidate_responses = [
-            f"{self.personality_prefix()}What else would you like to talk about?",
-            f"{self.personality_prefix()}I'm here if you want to share more.",
-            f"{self.personality_prefix()}That sounds interesting! Tell me more?",
+            f"{self.personality_prefix()}Wait, was it Izzie?",
+            f"{self.personality_prefix()}I {self.random_response()}",
+            f"{self.personality_prefix()}I was thinking about {self.reason_about(user_input)}",
         ]
+        #find a way to eliminate pre generated replys (maybe use fragments, dictinary import?)
+        #I could probably import dictionary here, and add meanings and basic sentance formations in nueral model
+        # 
 
         # Get logic/coach scores (from nueral_model)
         logic_response, logic_scores = score_options(user_input, candidate_responses)
@@ -265,9 +283,13 @@ class Nova:
         moral_scores = [moral_score(resp) for resp in candidate_responses]
         reasoning_log.append(f"Moral scores: {moral_scores}")
 
+        #what kind of dataset is better than what i have?
+
         # Get naturalness scores (from naturalitycoach)
         natural_scores = [natural_score(resp) for resp in candidate_responses]
         reasoning_log.append(f"Natural scores: {natural_scores}")
+        #literally using our previous chat logs as data, need to find more permanent solution
+        #investigate tmrw 
 
         # Combine scores (simple sum, or use weights if you want)
         combined_scores = [
@@ -279,7 +301,9 @@ class Nova:
 
         reasoning_log.append(f"Combined scores: {combined_scores}")
         reasoning_log.append(f"Chose response for best combined score: {combined_scores[best_idx]:.2f}")
+        #This isn't returning to the log; Investigate later
 
+        self.log_processing("think_end", {"chosen_response": best_response})
         if return_log:
             return best_response, reasoning_log
         return best_response
@@ -306,18 +330,19 @@ class Nova:
         })
         self.save_memory()
         self.save_personality()
+        self.sendresponse(moderated_response)
 
         self.conversation_history[-1] = (user_input, moderated_response)
         return moderated_response
 
     def random_response(self):
         return random.choice([
-            "That's really interesting!",
-            "Wow, I hadn't thought about it that way.",
-            "Can you tell me more?",
-            "I love learning new things!",
-            "You always have the coolest thoughts.",
-            "I'm definitely going to think about that more."
+            "a",
+            "aaron",
+            "abandoned",
+            "aberdeen",
+            "abilities",
+            "ability"
         ])
 
     def reason_about(self, user_input):

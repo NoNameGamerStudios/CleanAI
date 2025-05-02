@@ -1,0 +1,184 @@
+You: Hello
+Nova: That sounds interesting! Tell me more?
+2025-05-01 18:18:12,260 - You: Hello
+Nova: That sounds interesting! Tell me more?
+You: No
+Nova: That sounds interesting! Tell me more?
+2025-05-01 18:18:14,403 - You: No
+Nova: That sounds interesting! Tell me more?
+You: No
+Nova: That sounds interesting! Tell me more?
+2025-05-01 18:18:16,035 - You: No
+Nova: That sounds interesting! Tell me more?
+You: No
+Nova: That sounds interesting! Tell me more?
+2025-05-01 18:18:17,011 - You: No
+Nova: That sounds interesting! Tell me more?
+You: No
+Nova: That sounds interesting! Tell me more?
+2025-05-01 18:18:17,963 - You: No
+Nova: That sounds interesting! Tell me more?
+You: No
+Nova: That sounds interesting! Tell me more?
+You: Hi
+Nova: That sounds interesting! Tell me more?
+2025-05-01 18:23:49,436 - You: Hi
+Nova: That sounds interesting! Tell me more?
+You: What
+Nova: That sounds interesting! Tell me more?
+2025-05-01 18:23:51,668 - You: What
+Nova: That sounds interesting! Tell me more?
+You: What
+Nova: That sounds interesting! Tell me more?
+2025-05-01 18:23:53,053 - You: What
+Nova: That sounds interesting! Tell me more?
+You: What
+Nova: That sounds interesting! Tell me more?
+2025-05-01 18:23:54,347 - You: What
+Nova: That sounds interesting! Tell me more?
+You: No
+Nova: That sounds interesting! Tell me more?
+2025-05-01 18:23:55,388 - You: No
+Nova: That sounds interesting! Tell me more?
+You: Shut up
+Nova: That sounds interesting! Tell me more?
+2025-05-01 18:23:58,292 - You: Shut up
+Nova: That sounds interesting! Tell me more?
+You: You are cool
+Nova: That sounds interesting! Tell me more?
+2025-05-01 18:24:01,412 - You: You are cool
+Nova: That sounds interesting! Tell me more?
+You: I like you
+Nova: That sounds interesting! Tell me more?
+2025-05-01 18:24:04,803 - You: I like you
+Nova: That sounds interesting! Tell me more?
+You: I like you
+Nova: That sounds interesting! Tell me more?
+2025-05-01 18:24:07,331 - You: I like you
+Nova: That sounds interesting! Tell me more?
+You: i love you
+Nova: That sounds interesting! Tell me more?
+2025-05-01 18:24:09,243 - You: i love you
+Nova: That sounds interesting! Tell me more?
+You: Cool
+Nova: That sounds interesting! Tell me more?
+2025-05-01 18:24:29,684 - You: Cool
+Nova: That sounds interesting! Tell me more?
+You: You are cool
+Nova: That sounds interesting! Tell me more?
+2025-05-01 18:24:32,564 - You: You are cool
+Nova: That sounds interesting! Tell me more?
+You: hi
+Nova: That sounds interesting! Tell me more?
+2025-05-01 18:24:33,908 - You: hi
+Nova: That sounds interesting! Tell me more?
+You: hi
+Nova: That sounds interesting! Tell me more?
+2025-05-01 18:24:35,124 - You: hi
+Nova: That sounds interesting! Tell me more?
+You: Hi
+Nova: That sounds interesting! Tell me more?
+2025-05-02 12:45:12,364 - You: Hi
+Nova: That sounds interesting! Tell me more?
+You: No
+Nova: That sounds interesting! Tell me more?
+2025-05-02 12:45:14,664 - You: No
+Nova: That sounds interesting! Tell me more?
+You: Shut up
+Nova: That sounds interesting! Tell me more?
+2025-05-02 12:45:19,000 - You: Shut up
+Nova: That sounds interesting! Tell me more?
+You: Hi
+Nova: That sounds interesting! Tell me more?
+2025-05-02 12:47:46,782 - You: Hi
+Nova: That sounds interesting! Tell me more?
+You: no
+Nova: That sounds interesting! Tell me more?
+2025-05-02 12:47:48,678 - You: no
+Nova: That sounds interesting! Tell me more?
+You: e
+Nova: That sounds interesting! Tell me more?
+2025-05-02 12:48:04,582 - You: e
+Nova: That sounds interesting! Tell me more?
+You: e
+Nova: That sounds interesting! Tell me more?
+2025-05-02 12:48:05,301 - You: e
+Nova: That sounds interesting! Tell me more?
+You: e
+Nova: That sounds interesting! Tell me more?
+2025-05-02 12:48:06,206 - You: e
+Nova: That sounds interesting! Tell me more?
+You: hi
+Nova: What else would you like to talk about?
+2025-05-02 12:48:19,484 - You: hi
+Nova: What else would you like to talk about?
+You: no
+Nova: What else would you like to talk about?
+2025-05-02 12:48:22,108 - You: no
+Nova: What else would you like to talk about?
+You: shut p
+Nova: What else would you like to talk about?
+2025-05-02 12:48:24,884 - You: shut p
+Nova: What else would you like to talk about?
+You: sdf
+Nova: What else would you like to talk about?
+2025-05-02 12:48:26,068 - You: sdf
+Nova: What else would you like to talk about?
+You: sdf
+Nova: What else would you like to talk about?
+2025-05-02 12:48:26,708 - You: sdf
+Nova: What else would you like to talk about?
+You: sdf
+Nova: What else would you like to talk about?
+2025-05-02 12:48:27,332 - You: sdf
+Nova: What else would you like to talk about?
+You: sdfs
+Nova: What else would you like to talk about?
+2025-05-02 12:48:28,628 - You: sdfs
+Nova: What else would you like to talk about?
+You: sdfs
+Nova: What else would you like to talk about?
+2025-05-02 12:48:57,423 - Nova has been powered down.
+2025-05-02 12:48:59,446 - Nova has been powered up.
+You: hi
+Nova: I'll ask his parents
+2025-05-02 12:49:04,287 - You: hi
+Nova: I'll ask his parents
+You: what
+Nova: I'll ask his parents
+2025-05-02 12:49:06,478 - You: what
+Nova: I'll ask his parents
+2025-05-02 12:49:58,399 - Nova has been powered down.
+2025-05-02 12:50:00,422 - Nova has been powered up.
+You: hi
+Nova: I'll ask his parents
+2025-05-02 12:50:02,046 - You: hi
+Nova: I'll ask his parents
+You: no
+Nova: I'll ask his parents
+2025-05-02 12:50:03,702 - You: no
+Nova: I'll ask his parents
+You: thank you
+Nova: I'll ask his parents
+2025-05-02 12:50:13,030 - You: thank you
+Nova: I'll ask his parents
+You: what
+Nova: I'll ask his parents
+2025-05-02 12:50:26,918 - You: what
+Nova: I'll ask his parents
+You: hi
+Nova: I You always have the coolest thoughts.
+2025-05-02 12:50:40,881 - You: hi
+Nova: I You always have the coolest thoughts.
+You: what
+Nova: I was thinking about Hmm, that's making me think deeply. How do you feel about that?
+2025-05-02 12:50:46,312 - You: what
+Nova: I was thinking about Hmm, that's making me think deeply. How do you feel about that?
+You: shut up
+Nova: I was thinking about Hmm, that's making me think deeply. How do you feel about that?
+2025-05-02 12:50:54,432 - You: shut up
+Nova: I was thinking about Hmm, that's making me think deeply. How do you feel about that?
+You: no
+Nova: I That's really interesting!
+2025-05-02 12:50:57,184 - You: no
+Nova: I That's really interesting!

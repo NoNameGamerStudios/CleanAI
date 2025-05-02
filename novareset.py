@@ -1,19 +1,20 @@
 import os
 
 def deleteMemories():
+    print("deleting memories; plase hold on")
     if os.path.exists("Nova/nova_logs/nova_log.txt"):
-        print("deleting memories dir 1")
+        
         os.remove("Nova/nova_logs/nova_log.txt")
         print("Memories1 deleted successfully.")
     else:
-        print("nova_logs/nova_log.txt wasn't found.")
+        print("This path is deprecated!")
     
 
     if os.path.exists("nova_logs/nova_log.txt"):
         os.remove("nova_logs/nova_log.txt")
         print("memoriesdir2 deleted successfully.") 
     else:
-        print("Memoris couldn't be deleted.")
+        print("Memories couldn't be deleted.")
 
 def deleteThoughts():
     if os.path.exists("nova_logs\processing_log.txt"):
@@ -35,4 +36,6 @@ if main == "y":
     deleteThoughts()
 elif main == "n":
     print("exiting file")
+
+input("Press Enter to exit...")
     
