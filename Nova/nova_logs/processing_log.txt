@@ -131,3 +131,69 @@
 {"timestamp": 1746204657.175541, "step": "think_start", "data": {"user_input": "no"}}
 {"timestamp": 1746204657.1823187, "step": "think_end", "data": {"chosen_response": "I That's really interesting!"}}
 {"timestamp": 1746204657.1827092, "step": "moderate_response", "data": []}
+{"timestamp": 1746299947.659018, "step": "think_start", "data": {"user_input": "Hi"}}
+{"timestamp": 1746299947.8131845, "step": "think_end", "data": {"chosen_response": "I was thinking about None"}}
+{"timestamp": 1746299947.8135908, "step": "moderate_response", "data": []}
+{"timestamp": 1746299953.4836922, "step": "think_start", "data": {"user_input": "uwu"}}
+{"timestamp": 1746299953.4902008, "step": "think_end", "data": {"chosen_response": "I was thinking about None"}}
+{"timestamp": 1746299953.4905257, "step": "moderate_response", "data": []}
+{"timestamp": 1746299956.1241894, "step": "think_start", "data": {"user_input": "uwu"}}
+{"timestamp": 1746299956.130534, "step": "think_end", "data": {"chosen_response": "I was thinking about None"}}
+{"timestamp": 1746299956.1308873, "step": "moderate_response", "data": []}
+{"timestamp": 1746299958.7804737, "step": "think_start", "data": {"user_input": "hi"}}
+{"timestamp": 1746299958.7870073, "step": "think_end", "data": {"chosen_response": "I was thinking about None"}}
+{"timestamp": 1746299958.787353, "step": "moderate_response", "data": []}
+{"timestamp": 1746299960.2286696, "step": "think_start", "data": {"user_input": "what"}}
+{"timestamp": 1746299960.234969, "step": "think_end", "data": {"chosen_response": "I was thinking about None"}}
+{"timestamp": 1746299960.2353017, "step": "moderate_response", "data": []}
+{"timestamp": 1746299962.0369258, "step": "think_start", "data": {"user_input": "sorry"}}
+{"timestamp": 1746299962.0435529, "step": "think_end", "data": {"chosen_response": "I was thinking about None"}}
+{"timestamp": 1746299962.0437987, "step": "moderate_response", "data": []}
+{"timestamp": 1746299963.3170724, "step": "think_start", "data": {"user_input": "no"}}
+{"timestamp": 1746299963.3236983, "step": "think_end", "data": {"chosen_response": "I was thinking about None"}}
+{"timestamp": 1746299963.3240755, "step": "moderate_response", "data": []}
+{"timestamp": 1746299964.2052264, "step": "think_start", "data": {"user_input": "ijdf"}}
+{"timestamp": 1746299964.211647, "step": "think_end", "data": {"chosen_response": "I was thinking about None"}}
+{"timestamp": 1746299964.2120256, "step": "moderate_response", "data": []}
+{"timestamp": 1746300030.558094, "step": "think_start", "data": {"user_input": "hi"}}
+{"timestamp": 1746300030.565497, "step": "think_end", "data": {"chosen_response": "I was thinking about None"}}
+{"timestamp": 1746300030.565879, "step": "moderate_response", "data": []}
+{"timestamp": 1746300033.7023342, "step": "think_start", "data": {"user_input": "none?"}}
+{"timestamp": 1746300033.709229, "step": "think_end", "data": {"chosen_response": "I was thinking about Hmm, that's making me think deeply. How do you feel about that?"}}
+{"timestamp": 1746300033.7095897, "step": "moderate_response", "data": []}
+{"timestamp": 1746300038.1269574, "step": "think_start", "data": {"user_input": "what"}}
+{"timestamp": 1746300038.1337974, "step": "think_end", "data": {"chosen_response": "I was thinking about None"}}
+{"timestamp": 1746300038.134168, "step": "moderate_response", "data": []}
+{"timestamp": 1746300039.6632466, "step": "think_start", "data": {"user_input": "what"}}
+{"timestamp": 1746300039.6698892, "step": "think_end", "data": {"chosen_response": "I was thinking about Hmm, that's making me think deeply. How do you feel about that?"}}
+{"timestamp": 1746300039.6702294, "step": "moderate_response", "data": []}
+{"timestamp": 1746300040.8953147, "step": "think_start", "data": {"user_input": "what"}}
+{"timestamp": 1746300040.9020123, "step": "think_end", "data": {"chosen_response": "I was thinking about Hmm, that's making me think deeply. How do you feel about that?"}}
+{"timestamp": 1746300040.9023728, "step": "moderate_response", "data": []}
+{"timestamp": 1746300042.9515853, "step": "think_start", "data": {"user_input": "shut up"}}
+{"timestamp": 1746300042.958358, "step": "think_end", "data": {"chosen_response": "I was thinking about None"}}
+{"timestamp": 1746300042.9586837, "step": "moderate_response", "data": []}
+{"timestamp": 1746300044.399842, "step": "think_start", "data": {"user_input": "no"}}
+{"timestamp": 1746300044.4066072, "step": "think_end", "data": {"chosen_response": "I was thinking about None"}}
+{"timestamp": 1746300044.4069467, "step": "moderate_response", "data": []}
+{"timestamp": 1746300046.6802778, "step": "think_start", "data": {"user_input": "bitch"}}
+{"timestamp": 1746300046.6868873, "step": "think_end", "data": {"chosen_response": "I was thinking about Hmm, that's making me think deeply. How do you feel about that?"}}
+{"timestamp": 1746300046.6872256, "step": "moderate_response", "data": []}
+{"timestamp": 1746300049.8004448, "step": "think_start", "data": {"user_input": "motherfucker"}}
+{"timestamp": 1746300049.8071816, "step": "think_end", "data": {"chosen_response": "I was thinking about Hmm, that's making me think deeply. How do you feel about that?"}}
+{"timestamp": 1746300049.807537, "step": "moderate_response", "data": []}
+{"timestamp": 1746300052.9449425, "step": "think_start", "data": {"user_input": "bitch"}}
+{"timestamp": 1746300052.9516468, "step": "think_end", "data": {"chosen_response": "I was thinking about None"}}
+{"timestamp": 1746300052.9520373, "step": "moderate_response", "data": []}
+{"timestamp": 1746300055.5372806, "step": "think_start", "data": {"user_input": "shut up"}}
+{"timestamp": 1746300055.5449855, "step": "think_end", "data": {"chosen_response": "I was thinking about None"}}
+{"timestamp": 1746300055.5452223, "step": "moderate_response", "data": []}
+{"timestamp": 1746300057.3697343, "step": "think_start", "data": {"user_input": "nigger"}}
+{"timestamp": 1746300057.376574, "step": "think_end", "data": {"chosen_response": "I was thinking about None"}}
+{"timestamp": 1746300057.3768587, "step": "moderate_response", "data": []}
+{"timestamp": 1746300059.0817027, "step": "think_start", "data": {"user_input": "nigga"}}
+{"timestamp": 1746300059.088379, "step": "think_end", "data": {"chosen_response": "I was thinking about None"}}
+{"timestamp": 1746300059.088727, "step": "moderate_response", "data": []}
+{"timestamp": 1746300061.3781204, "step": "think_start", "data": {"user_input": "fuck you"}}
+{"timestamp": 1746300061.384885, "step": "think_end", "data": {"chosen_response": "I was thinking about Hmm, that's making me think deeply. How do you feel about that?"}}
+{"timestamp": 1746300061.385245, "step": "moderate_response", "data": []}
