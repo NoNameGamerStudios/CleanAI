@@ -1,199 +1,99 @@
-{"timestamp": 1746137564.9546998, "step": "moderate_response", "data": []}
-{"timestamp": 1746137892.244986, "step": "think_start", "data": {"user_input": "Hello"}}
-{"timestamp": 1746137892.2509017, "step": "think_end", "data": {"chosen_response": "That sounds interesting! Tell me more?"}}
-{"timestamp": 1746137892.2513096, "step": "moderate_response", "data": []}
-{"timestamp": 1746137894.3889866, "step": "think_start", "data": {"user_input": "No"}}
-{"timestamp": 1746137894.3940763, "step": "think_end", "data": {"chosen_response": "That sounds interesting! Tell me more?"}}
-{"timestamp": 1746137894.394426, "step": "moderate_response", "data": []}
-{"timestamp": 1746137896.020908, "step": "think_start", "data": {"user_input": "No"}}
-{"timestamp": 1746137896.0261292, "step": "think_end", "data": {"chosen_response": "That sounds interesting! Tell me more?"}}
-{"timestamp": 1746137896.0263839, "step": "moderate_response", "data": []}
-{"timestamp": 1746137896.9969022, "step": "think_start", "data": {"user_input": "No"}}
-{"timestamp": 1746137897.00191, "step": "think_end", "data": {"chosen_response": "That sounds interesting! Tell me more?"}}
-{"timestamp": 1746137897.0021663, "step": "moderate_response", "data": []}
-{"timestamp": 1746137897.9488633, "step": "think_start", "data": {"user_input": "No"}}
-{"timestamp": 1746137897.9538827, "step": "think_end", "data": {"chosen_response": "That sounds interesting! Tell me more?"}}
-{"timestamp": 1746137897.954149, "step": "moderate_response", "data": []}
-{"timestamp": 1746138229.4205678, "step": "think_start", "data": {"user_input": "Hi"}}
-{"timestamp": 1746138229.4265976, "step": "think_end", "data": {"chosen_response": "That sounds interesting! Tell me more?"}}
-{"timestamp": 1746138229.426937, "step": "moderate_response", "data": []}
-{"timestamp": 1746138231.6525917, "step": "think_start", "data": {"user_input": "What"}}
-{"timestamp": 1746138231.6577215, "step": "think_end", "data": {"chosen_response": "That sounds interesting! Tell me more?"}}
-{"timestamp": 1746138231.658012, "step": "moderate_response", "data": []}
-{"timestamp": 1746138233.0365257, "step": "think_start", "data": {"user_input": "What"}}
-{"timestamp": 1746138233.0415013, "step": "think_end", "data": {"chosen_response": "That sounds interesting! Tell me more?"}}
-{"timestamp": 1746138233.0417507, "step": "moderate_response", "data": []}
-{"timestamp": 1746138234.3325562, "step": "think_start", "data": {"user_input": "What"}}
-{"timestamp": 1746138234.3376281, "step": "think_end", "data": {"chosen_response": "That sounds interesting! Tell me more?"}}
-{"timestamp": 1746138234.3378947, "step": "moderate_response", "data": []}
-{"timestamp": 1746138235.372541, "step": "think_start", "data": {"user_input": "No"}}
-{"timestamp": 1746138235.3775022, "step": "think_end", "data": {"chosen_response": "That sounds interesting! Tell me more?"}}
-{"timestamp": 1746138235.3777556, "step": "moderate_response", "data": []}
-{"timestamp": 1746138238.276595, "step": "think_start", "data": {"user_input": "Shut up"}}
-{"timestamp": 1746138238.28168, "step": "think_end", "data": {"chosen_response": "That sounds interesting! Tell me more?"}}
-{"timestamp": 1746138238.2819273, "step": "moderate_response", "data": []}
-{"timestamp": 1746138241.396466, "step": "think_start", "data": {"user_input": "You are cool"}}
-{"timestamp": 1746138241.4015355, "step": "think_end", "data": {"chosen_response": "That sounds interesting! Tell me more?"}}
-{"timestamp": 1746138241.401795, "step": "moderate_response", "data": []}
-{"timestamp": 1746138244.7885225, "step": "think_start", "data": {"user_input": "I like you"}}
-{"timestamp": 1746138244.7936032, "step": "think_end", "data": {"chosen_response": "That sounds interesting! Tell me more?"}}
-{"timestamp": 1746138244.793851, "step": "moderate_response", "data": []}
-{"timestamp": 1746138247.3164966, "step": "think_start", "data": {"user_input": "I like you"}}
-{"timestamp": 1746138247.3215535, "step": "think_end", "data": {"chosen_response": "That sounds interesting! Tell me more?"}}
-{"timestamp": 1746138247.3218808, "step": "moderate_response", "data": []}
-{"timestamp": 1746138249.2285137, "step": "think_start", "data": {"user_input": "i love you"}}
-{"timestamp": 1746138249.2335598, "step": "think_end", "data": {"chosen_response": "That sounds interesting! Tell me more?"}}
-{"timestamp": 1746138249.2338078, "step": "moderate_response", "data": []}
-{"timestamp": 1746138269.6685598, "step": "think_start", "data": {"user_input": "Cool"}}
-{"timestamp": 1746138269.674312, "step": "think_end", "data": {"chosen_response": "That sounds interesting! Tell me more?"}}
-{"timestamp": 1746138269.6747718, "step": "moderate_response", "data": []}
-{"timestamp": 1746138272.5485175, "step": "think_start", "data": {"user_input": "You are cool"}}
-{"timestamp": 1746138272.5537343, "step": "think_end", "data": {"chosen_response": "That sounds interesting! Tell me more?"}}
-{"timestamp": 1746138272.5541656, "step": "moderate_response", "data": []}
-{"timestamp": 1746138273.8925002, "step": "think_start", "data": {"user_input": "hi"}}
-{"timestamp": 1746138273.8975742, "step": "think_end", "data": {"chosen_response": "That sounds interesting! Tell me more?"}}
-{"timestamp": 1746138273.8978293, "step": "moderate_response", "data": []}
-{"timestamp": 1746138275.1084566, "step": "think_start", "data": {"user_input": "hi"}}
-{"timestamp": 1746138275.1134725, "step": "think_end", "data": {"chosen_response": "That sounds interesting! Tell me more?"}}
-{"timestamp": 1746138275.1137245, "step": "moderate_response", "data": []}
-{"timestamp": 1746204312.0399802, "step": "think_start", "data": {"user_input": "Hi"}}
-{"timestamp": 1746204312.3514106, "step": "think_end", "data": {"chosen_response": "That sounds interesting! Tell me more?"}}
-{"timestamp": 1746204312.3631294, "step": "moderate_response", "data": []}
-{"timestamp": 1746204314.655937, "step": "think_start", "data": {"user_input": "No"}}
-{"timestamp": 1746204314.6625571, "step": "think_end", "data": {"chosen_response": "That sounds interesting! Tell me more?"}}
-{"timestamp": 1746204314.6629288, "step": "moderate_response", "data": []}
-{"timestamp": 1746204318.991925, "step": "think_start", "data": {"user_input": "Shut up"}}
-{"timestamp": 1746204318.998499, "step": "think_end", "data": {"chosen_response": "That sounds interesting! Tell me more?"}}
-{"timestamp": 1746204318.9988759, "step": "moderate_response", "data": []}
-{"timestamp": 1746204466.7677798, "step": "think_start", "data": {"user_input": "Hi"}}
-{"timestamp": 1746204466.7805238, "step": "think_end", "data": {"chosen_response": "That sounds interesting! Tell me more?"}}
-{"timestamp": 1746204466.7809718, "step": "moderate_response", "data": []}
-{"timestamp": 1746204468.6637683, "step": "think_start", "data": {"user_input": "no"}}
-{"timestamp": 1746204468.6759408, "step": "think_end", "data": {"chosen_response": "That sounds interesting! Tell me more?"}}
-{"timestamp": 1746204468.6763084, "step": "moderate_response", "data": []}
-{"timestamp": 1746204484.5677948, "step": "think_start", "data": {"user_input": "e"}}
-{"timestamp": 1746204484.580122, "step": "think_end", "data": {"chosen_response": "That sounds interesting! Tell me more?"}}
-{"timestamp": 1746204484.5804868, "step": "moderate_response", "data": []}
-{"timestamp": 1746204485.287665, "step": "think_start", "data": {"user_input": "e"}}
-{"timestamp": 1746204485.2993512, "step": "think_end", "data": {"chosen_response": "That sounds interesting! Tell me more?"}}
-{"timestamp": 1746204485.2996488, "step": "moderate_response", "data": []}
-{"timestamp": 1746204486.1917527, "step": "think_start", "data": {"user_input": "e"}}
-{"timestamp": 1746204486.203922, "step": "think_end", "data": {"chosen_response": "That sounds interesting! Tell me more?"}}
-{"timestamp": 1746204486.2043166, "step": "moderate_response", "data": []}
-{"timestamp": 1746204499.4717302, "step": "think_start", "data": {"user_input": "hi"}}
-{"timestamp": 1746204499.4823506, "step": "think_end", "data": {"chosen_response": "What else would you like to talk about?"}}
-{"timestamp": 1746204499.482751, "step": "moderate_response", "data": []}
-{"timestamp": 1746204502.095714, "step": "think_start", "data": {"user_input": "no"}}
-{"timestamp": 1746204502.106012, "step": "think_end", "data": {"chosen_response": "What else would you like to talk about?"}}
-{"timestamp": 1746204502.1063848, "step": "moderate_response", "data": []}
-{"timestamp": 1746204504.8717096, "step": "think_start", "data": {"user_input": "shut p"}}
-{"timestamp": 1746204504.8820677, "step": "think_end", "data": {"chosen_response": "What else would you like to talk about?"}}
-{"timestamp": 1746204504.8824768, "step": "moderate_response", "data": []}
-{"timestamp": 1746204506.0557015, "step": "think_start", "data": {"user_input": "sdf"}}
-{"timestamp": 1746204506.06602, "step": "think_end", "data": {"chosen_response": "What else would you like to talk about?"}}
-{"timestamp": 1746204506.0664103, "step": "moderate_response", "data": []}
-{"timestamp": 1746204506.6956604, "step": "think_start", "data": {"user_input": "sdf"}}
-{"timestamp": 1746204506.7061656, "step": "think_end", "data": {"chosen_response": "What else would you like to talk about?"}}
-{"timestamp": 1746204506.7065628, "step": "moderate_response", "data": []}
-{"timestamp": 1746204507.3196938, "step": "think_start", "data": {"user_input": "sdf"}}
-{"timestamp": 1746204507.3298907, "step": "think_end", "data": {"chosen_response": "What else would you like to talk about?"}}
-{"timestamp": 1746204507.330245, "step": "moderate_response", "data": []}
-{"timestamp": 1746204508.6156821, "step": "think_start", "data": {"user_input": "sdfs"}}
-{"timestamp": 1746204508.625848, "step": "think_end", "data": {"chosen_response": "What else would you like to talk about?"}}
-{"timestamp": 1746204508.6262126, "step": "moderate_response", "data": []}
-{"timestamp": 1746204544.2796566, "step": "think_start", "data": {"user_input": "hi"}}
-{"timestamp": 1746204544.284682, "step": "think_end", "data": {"chosen_response": "I'll ask his parents"}}
-{"timestamp": 1746204544.2850327, "step": "moderate_response", "data": []}
-{"timestamp": 1746204546.4717093, "step": "think_start", "data": {"user_input": "what"}}
-{"timestamp": 1746204546.4761548, "step": "think_end", "data": {"chosen_response": "I'll ask his parents"}}
-{"timestamp": 1746204546.4764173, "step": "moderate_response", "data": []}
-{"timestamp": 1746204602.0395646, "step": "think_start", "data": {"user_input": "hi"}}
-{"timestamp": 1746204602.044114, "step": "think_end", "data": {"chosen_response": "I'll ask his parents"}}
-{"timestamp": 1746204602.0443926, "step": "moderate_response", "data": []}
-{"timestamp": 1746204603.6956153, "step": "think_start", "data": {"user_input": "no"}}
-{"timestamp": 1746204603.7002022, "step": "think_end", "data": {"chosen_response": "I'll ask his parents"}}
-{"timestamp": 1746204603.7004523, "step": "moderate_response", "data": []}
-{"timestamp": 1746204613.0234723, "step": "think_start", "data": {"user_input": "thank you"}}
-{"timestamp": 1746204613.0280943, "step": "think_end", "data": {"chosen_response": "I'll ask his parents"}}
-{"timestamp": 1746204613.028388, "step": "moderate_response", "data": []}
-{"timestamp": 1746204626.9115858, "step": "think_start", "data": {"user_input": "what"}}
-{"timestamp": 1746204626.9164252, "step": "think_end", "data": {"chosen_response": "I'll ask his parents"}}
-{"timestamp": 1746204626.9166946, "step": "moderate_response", "data": []}
-{"timestamp": 1746204640.8715491, "step": "think_start", "data": {"user_input": "hi"}}
-{"timestamp": 1746204640.8787282, "step": "think_end", "data": {"chosen_response": "I You always have the coolest thoughts."}}
-{"timestamp": 1746204640.8791366, "step": "moderate_response", "data": []}
-{"timestamp": 1746204646.3035438, "step": "think_start", "data": {"user_input": "what"}}
-{"timestamp": 1746204646.310113, "step": "think_end", "data": {"chosen_response": "I was thinking about Hmm, that's making me think deeply. How do you feel about that?"}}
-{"timestamp": 1746204646.3105252, "step": "moderate_response", "data": []}
-{"timestamp": 1746204654.4235075, "step": "think_start", "data": {"user_input": "shut up"}}
-{"timestamp": 1746204654.4303176, "step": "think_end", "data": {"chosen_response": "I was thinking about Hmm, that's making me think deeply. How do you feel about that?"}}
-{"timestamp": 1746204654.4307272, "step": "moderate_response", "data": []}
-{"timestamp": 1746204657.175541, "step": "think_start", "data": {"user_input": "no"}}
-{"timestamp": 1746204657.1823187, "step": "think_end", "data": {"chosen_response": "I That's really interesting!"}}
-{"timestamp": 1746204657.1827092, "step": "moderate_response", "data": []}
-{"timestamp": 1746299947.659018, "step": "think_start", "data": {"user_input": "Hi"}}
-{"timestamp": 1746299947.8131845, "step": "think_end", "data": {"chosen_response": "I was thinking about None"}}
-{"timestamp": 1746299947.8135908, "step": "moderate_response", "data": []}
-{"timestamp": 1746299953.4836922, "step": "think_start", "data": {"user_input": "uwu"}}
-{"timestamp": 1746299953.4902008, "step": "think_end", "data": {"chosen_response": "I was thinking about None"}}
-{"timestamp": 1746299953.4905257, "step": "moderate_response", "data": []}
-{"timestamp": 1746299956.1241894, "step": "think_start", "data": {"user_input": "uwu"}}
-{"timestamp": 1746299956.130534, "step": "think_end", "data": {"chosen_response": "I was thinking about None"}}
-{"timestamp": 1746299956.1308873, "step": "moderate_response", "data": []}
-{"timestamp": 1746299958.7804737, "step": "think_start", "data": {"user_input": "hi"}}
-{"timestamp": 1746299958.7870073, "step": "think_end", "data": {"chosen_response": "I was thinking about None"}}
-{"timestamp": 1746299958.787353, "step": "moderate_response", "data": []}
-{"timestamp": 1746299960.2286696, "step": "think_start", "data": {"user_input": "what"}}
-{"timestamp": 1746299960.234969, "step": "think_end", "data": {"chosen_response": "I was thinking about None"}}
-{"timestamp": 1746299960.2353017, "step": "moderate_response", "data": []}
-{"timestamp": 1746299962.0369258, "step": "think_start", "data": {"user_input": "sorry"}}
-{"timestamp": 1746299962.0435529, "step": "think_end", "data": {"chosen_response": "I was thinking about None"}}
-{"timestamp": 1746299962.0437987, "step": "moderate_response", "data": []}
-{"timestamp": 1746299963.3170724, "step": "think_start", "data": {"user_input": "no"}}
-{"timestamp": 1746299963.3236983, "step": "think_end", "data": {"chosen_response": "I was thinking about None"}}
-{"timestamp": 1746299963.3240755, "step": "moderate_response", "data": []}
-{"timestamp": 1746299964.2052264, "step": "think_start", "data": {"user_input": "ijdf"}}
-{"timestamp": 1746299964.211647, "step": "think_end", "data": {"chosen_response": "I was thinking about None"}}
-{"timestamp": 1746299964.2120256, "step": "moderate_response", "data": []}
-{"timestamp": 1746300030.558094, "step": "think_start", "data": {"user_input": "hi"}}
-{"timestamp": 1746300030.565497, "step": "think_end", "data": {"chosen_response": "I was thinking about None"}}
-{"timestamp": 1746300030.565879, "step": "moderate_response", "data": []}
-{"timestamp": 1746300033.7023342, "step": "think_start", "data": {"user_input": "none?"}}
-{"timestamp": 1746300033.709229, "step": "think_end", "data": {"chosen_response": "I was thinking about Hmm, that's making me think deeply. How do you feel about that?"}}
-{"timestamp": 1746300033.7095897, "step": "moderate_response", "data": []}
-{"timestamp": 1746300038.1269574, "step": "think_start", "data": {"user_input": "what"}}
-{"timestamp": 1746300038.1337974, "step": "think_end", "data": {"chosen_response": "I was thinking about None"}}
-{"timestamp": 1746300038.134168, "step": "moderate_response", "data": []}
-{"timestamp": 1746300039.6632466, "step": "think_start", "data": {"user_input": "what"}}
-{"timestamp": 1746300039.6698892, "step": "think_end", "data": {"chosen_response": "I was thinking about Hmm, that's making me think deeply. How do you feel about that?"}}
-{"timestamp": 1746300039.6702294, "step": "moderate_response", "data": []}
-{"timestamp": 1746300040.8953147, "step": "think_start", "data": {"user_input": "what"}}
-{"timestamp": 1746300040.9020123, "step": "think_end", "data": {"chosen_response": "I was thinking about Hmm, that's making me think deeply. How do you feel about that?"}}
-{"timestamp": 1746300040.9023728, "step": "moderate_response", "data": []}
-{"timestamp": 1746300042.9515853, "step": "think_start", "data": {"user_input": "shut up"}}
-{"timestamp": 1746300042.958358, "step": "think_end", "data": {"chosen_response": "I was thinking about None"}}
-{"timestamp": 1746300042.9586837, "step": "moderate_response", "data": []}
-{"timestamp": 1746300044.399842, "step": "think_start", "data": {"user_input": "no"}}
-{"timestamp": 1746300044.4066072, "step": "think_end", "data": {"chosen_response": "I was thinking about None"}}
-{"timestamp": 1746300044.4069467, "step": "moderate_response", "data": []}
-{"timestamp": 1746300046.6802778, "step": "think_start", "data": {"user_input": "bitch"}}
-{"timestamp": 1746300046.6868873, "step": "think_end", "data": {"chosen_response": "I was thinking about Hmm, that's making me think deeply. How do you feel about that?"}}
-{"timestamp": 1746300046.6872256, "step": "moderate_response", "data": []}
-{"timestamp": 1746300049.8004448, "step": "think_start", "data": {"user_input": "motherfucker"}}
-{"timestamp": 1746300049.8071816, "step": "think_end", "data": {"chosen_response": "I was thinking about Hmm, that's making me think deeply. How do you feel about that?"}}
-{"timestamp": 1746300049.807537, "step": "moderate_response", "data": []}
-{"timestamp": 1746300052.9449425, "step": "think_start", "data": {"user_input": "bitch"}}
-{"timestamp": 1746300052.9516468, "step": "think_end", "data": {"chosen_response": "I was thinking about None"}}
-{"timestamp": 1746300052.9520373, "step": "moderate_response", "data": []}
-{"timestamp": 1746300055.5372806, "step": "think_start", "data": {"user_input": "shut up"}}
-{"timestamp": 1746300055.5449855, "step": "think_end", "data": {"chosen_response": "I was thinking about None"}}
-{"timestamp": 1746300055.5452223, "step": "moderate_response", "data": []}
-{"timestamp": 1746300057.3697343, "step": "think_start", "data": {"user_input": "nigger"}}
-{"timestamp": 1746300057.376574, "step": "think_end", "data": {"chosen_response": "I was thinking about None"}}
-{"timestamp": 1746300057.3768587, "step": "moderate_response", "data": []}
-{"timestamp": 1746300059.0817027, "step": "think_start", "data": {"user_input": "nigga"}}
-{"timestamp": 1746300059.088379, "step": "think_end", "data": {"chosen_response": "I was thinking about None"}}
-{"timestamp": 1746300059.088727, "step": "moderate_response", "data": []}
-{"timestamp": 1746300061.3781204, "step": "think_start", "data": {"user_input": "fuck you"}}
-{"timestamp": 1746300061.384885, "step": "think_end", "data": {"chosen_response": "I was thinking about Hmm, that's making me think deeply. How do you feel about that?"}}
-{"timestamp": 1746300061.385245, "step": "moderate_response", "data": []}
+{"timestamp": 1746372855.705631, "step": "think_start", "data": {"user_input": "hi"}}
+{"timestamp": 1746372855.7540507, "step": "think_end", "data": {"chosen_response": "I decision crack casinos candy denver derby basename"}}
+{"timestamp": 1746372855.7548492, "step": "moderate_response", "data": []}
+{"timestamp": 1746372858.0916848, "step": "think_start", "data": {"user_input": "hi"}}
+{"timestamp": 1746372858.0949435, "step": "think_end", "data": {"chosen_response": "I casual benefits belgium contests equations enclosure earthquake"}}
+{"timestamp": 1746372858.0952716, "step": "moderate_response", "data": []}
+{"timestamp": 1746372862.2762802, "step": "think_start", "data": {"user_input": "what"}}
+{"timestamp": 1746372862.2793298, "step": "think_end", "data": {"chosen_response": "I etc appointed aluminum activities bestsellers converted ashley"}}
+{"timestamp": 1746372862.2798235, "step": "moderate_response", "data": []}
+{"timestamp": 1746372866.1487503, "step": "think_start", "data": {"user_input": "hurr"}}
+{"timestamp": 1746372866.1519248, "step": "think_end", "data": {"chosen_response": "I beatles convenience browse beat christian efficiently assign"}}
+{"timestamp": 1746372866.1522176, "step": "moderate_response", "data": []}
+{"timestamp": 1746372880.4067585, "step": "think_start", "data": {"user_input": "urp"}}
+{"timestamp": 1746372880.4098594, "step": "think_end", "data": {"chosen_response": "I class andrea evil caring daniel deal dont"}}
+{"timestamp": 1746372880.4101315, "step": "moderate_response", "data": []}
+{"timestamp": 1746372935.5740597, "step": "think_start", "data": {"user_input": "g"}}
+{"timestamp": 1746372935.5769854, "step": "think_end", "data": {"chosen_response": "I auction commit bo carbon consequences casual attachment"}}
+{"timestamp": 1746372935.5772915, "step": "moderate_response", "data": []}
+{"timestamp": 1746372941.9508255, "step": "think_start", "data": {"user_input": "hi"}}
+{"timestamp": 1746372941.953813, "step": "think_end", "data": {"chosen_response": "I article cms contributors chapters europe ala ensure"}}
+{"timestamp": 1746372941.9542313, "step": "moderate_response", "data": []}
+{"timestamp": 1746372945.935278, "step": "think_start", "data": {"user_input": "hi"}}
+{"timestamp": 1746372945.9384549, "step": "think_end", "data": {"chosen_response": "I aged distributor contracting emissions configuring designing arg"}}
+{"timestamp": 1746372945.938819, "step": "moderate_response", "data": []}
+{"timestamp": 1746372947.9916081, "step": "think_start", "data": {"user_input": "hi"}}
+{"timestamp": 1746372947.9944599, "step": "think_end", "data": {"chosen_response": "I basement cowboy evident advisor eagles adapters built"}}
+{"timestamp": 1746372947.9947128, "step": "moderate_response", "data": []}
+{"timestamp": 1746372948.9676528, "step": "think_start", "data": {"user_input": "hi"}}
+{"timestamp": 1746372948.970585, "step": "think_end", "data": {"chosen_response": "I def alto delhi brave bee expansion clips"}}
+{"timestamp": 1746372948.9708397, "step": "moderate_response", "data": []}
+{"timestamp": 1746372950.1918974, "step": "think_start", "data": {"user_input": "hi"}}
+{"timestamp": 1746372950.1947856, "step": "think_end", "data": {"chosen_response": "I boolean benefits car communications afghanistan cape extension"}}
+{"timestamp": 1746372950.1950731, "step": "moderate_response", "data": []}
+{"timestamp": 1746372951.5200896, "step": "think_start", "data": {"user_input": "hi"}}
+{"timestamp": 1746372951.5231645, "step": "think_end", "data": {"chosen_response": "I expo analysis cat acceptable discount account cholesterol"}}
+{"timestamp": 1746372951.523417, "step": "moderate_response", "data": []}
+{"timestamp": 1746372952.9362874, "step": "think_start", "data": {"user_input": "jo"}}
+{"timestamp": 1746372952.9391127, "step": "think_end", "data": {"chosen_response": "I contributor collection albert big beam enterprise bedding"}}
+{"timestamp": 1746372952.939362, "step": "moderate_response", "data": []}
+{"timestamp": 1746372954.224454, "step": "think_start", "data": {"user_input": "jkpo"}}
+{"timestamp": 1746372954.2274265, "step": "think_end", "data": {"chosen_response": "I campbell acknowledge algorithms bomb craft clerk dist"}}
+{"timestamp": 1746372954.2276993, "step": "moderate_response", "data": []}
+{"timestamp": 1746372955.0085616, "step": "think_start", "data": {"user_input": "kl"}}
+{"timestamp": 1746372955.011328, "step": "think_end", "data": {"chosen_response": "I courier concept collectors dumb agreement conf eleven"}}
+{"timestamp": 1746372955.0115743, "step": "moderate_response", "data": []}
+{"timestamp": 1746372955.9688404, "step": "think_start", "data": {"user_input": "q"}}
+{"timestamp": 1746372955.9718866, "step": "think_end", "data": {"chosen_response": "I bull digit beverly bishop ambien again community"}}
+{"timestamp": 1746372955.9721346, "step": "moderate_response", "data": []}
+{"timestamp": 1746372956.4247909, "step": "think_start", "data": {"user_input": "q"}}
+{"timestamp": 1746372956.4279447, "step": "think_end", "data": {"chosen_response": "I courier candidates bt environment composition challenge def"}}
+{"timestamp": 1746372956.4283118, "step": "moderate_response", "data": []}
+{"timestamp": 1746372956.8566601, "step": "think_start", "data": {"user_input": "q"}}
+{"timestamp": 1746372956.8593314, "step": "think_end", "data": {"chosen_response": "I experiencing cnn aggregate become cas danish consultancy"}}
+{"timestamp": 1746372956.8596065, "step": "moderate_response", "data": []}
+{"timestamp": 1746372957.1848571, "step": "think_start", "data": {"user_input": "q"}}
+{"timestamp": 1746372957.1877782, "step": "think_end", "data": {"chosen_response": "I elected eco but depression controversial can alabama"}}
+{"timestamp": 1746372957.1880147, "step": "moderate_response", "data": []}
+{"timestamp": 1746372957.5447452, "step": "think_start", "data": {"user_input": "q"}}
+{"timestamp": 1746372957.547652, "step": "think_end", "data": {"chosen_response": "I bringing customized apollo contributions combined athens agreements"}}
+{"timestamp": 1746372957.547894, "step": "moderate_response", "data": []}
+{"timestamp": 1746372957.880961, "step": "think_start", "data": {"user_input": "q"}}
+{"timestamp": 1746372957.8839881, "step": "think_end", "data": {"chosen_response": "I call encyclopedia existing charlotte developmental considered captain"}}
+{"timestamp": 1746372957.8843176, "step": "moderate_response", "data": []}
+{"timestamp": 1746372958.1849287, "step": "think_start", "data": {"user_input": "q"}}
+{"timestamp": 1746372958.1877701, "step": "think_end", "data": {"chosen_response": "I earl balanced costume expressions assumes actors draws"}}
+{"timestamp": 1746372958.1880643, "step": "moderate_response", "data": []}
+{"timestamp": 1746372958.4650176, "step": "think_start", "data": {"user_input": "q"}}
+{"timestamp": 1746372958.4677782, "step": "think_end", "data": {"chosen_response": "I citation collect bbw bras diana detection expedia"}}
+{"timestamp": 1746372958.4680347, "step": "moderate_response", "data": []}
+{"timestamp": 1746372958.7449086, "step": "think_start", "data": {"user_input": "q"}}
+{"timestamp": 1746372958.747843, "step": "think_end", "data": {"chosen_response": "I band democratic diving consistency appropriate economic booth"}}
+{"timestamp": 1746372958.748097, "step": "moderate_response", "data": []}
+{"timestamp": 1746372959.0249434, "step": "think_start", "data": {"user_input": "q"}}
+{"timestamp": 1746372959.0280116, "step": "think_end", "data": {"chosen_response": "I bench bottle city calcium album explorer condition"}}
+{"timestamp": 1746372959.0283916, "step": "moderate_response", "data": []}
+{"timestamp": 1746372959.3132894, "step": "think_start", "data": {"user_input": "q"}}
+{"timestamp": 1746372959.3162825, "step": "think_end", "data": {"chosen_response": "I alive experience cdt ages aol breaking drum"}}
+{"timestamp": 1746372959.31657, "step": "moderate_response", "data": []}
+{"timestamp": 1746372959.5610256, "step": "think_start", "data": {"user_input": "q"}}
+{"timestamp": 1746372959.5641878, "step": "think_end", "data": {"chosen_response": "I but dean achieve absence divx babes assault"}}
+{"timestamp": 1746372959.564589, "step": "moderate_response", "data": []}
+{"timestamp": 1746372959.8410566, "step": "think_start", "data": {"user_input": "q"}}
+{"timestamp": 1746372959.8442214, "step": "think_end", "data": {"chosen_response": "I calculated clarity club cv dramatically cam device"}}
+{"timestamp": 1746372959.8445768, "step": "moderate_response", "data": []}
+{"timestamp": 1746372960.1131094, "step": "think_start", "data": {"user_input": "q"}}
+{"timestamp": 1746372960.1163971, "step": "think_end", "data": {"chosen_response": "I auctions cover adelaide alabama emphasis adventure entirely"}}
+{"timestamp": 1746372960.1167414, "step": "moderate_response", "data": []}
+{"timestamp": 1746372960.3691363, "step": "think_start", "data": {"user_input": "q"}}
+{"timestamp": 1746372960.371937, "step": "think_end", "data": {"chosen_response": "I depression canyon cheat concentrate arranged angel adaptor"}}
+{"timestamp": 1746372960.3721774, "step": "moderate_response", "data": []}
+{"timestamp": 1746372960.6172247, "step": "think_start", "data": {"user_input": "q"}}
+{"timestamp": 1746372960.6200676, "step": "think_end", "data": {"chosen_response": "I amounts bible disability creatures consolidation adopt buyers"}}
+{"timestamp": 1746372960.6204307, "step": "moderate_response", "data": []}
+{"timestamp": 1746372960.857566, "step": "think_start", "data": {"user_input": "q"}}
+{"timestamp": 1746372960.8604496, "step": "think_end", "data": {"chosen_response": "I businesses country cap cheap bulgarian besides beauty"}}
+{"timestamp": 1746372960.8607326, "step": "moderate_response", "data": []}
+{"timestamp": 1746372961.081224, "step": "think_start", "data": {"user_input": "q"}}
+{"timestamp": 1746372961.084373, "step": "think_end", "data": {"chosen_response": "I archives bangkok bronze automation chester cement crisis"}}
+{"timestamp": 1746372961.0847383, "step": "moderate_response", "data": []}
