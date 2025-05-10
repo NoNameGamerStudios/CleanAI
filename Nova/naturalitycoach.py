@@ -57,17 +57,15 @@ def load_coach_dataset():
     df = pd.DataFrame({"user": usernames, "text": lines})
     return df
 
-# Load dataset and fit TF-IDF vectorizer once
+# Load and vectorize the dataset ONCE at import
 df = load_coach_dataset()
-real_responses = df['text'].astype(str).tolist()
+real_responses = [r for r in df['text'].astype(str).tolist() if r.strip()]
 vectorizer = TfidfVectorizer().fit(real_responses)
 
 def natural_score(candidate):
-    # Compute similarity to real responses
     candidate_vec = vectorizer.transform([candidate])
     real_vecs = vectorizer.transform(real_responses)
     similarities = cosine_similarity(candidate_vec, real_vecs)
-    # Score is the max similarity to any real response (higher = more natural)
     return float(similarities.max())
 
 def process_nova_response(nova_response):
@@ -97,19 +95,34 @@ def log_scoring(score):
 
 #final logging loop
 if __name__ == "__main__":
-    coach = NaturalCoach(input_size=10)
-    coach.importdata("Nova/coach_train/sentresponses.json")
+    import re
+    base_dir = os.path.dirname(__file__)
+    data_path = os.path.join(base_dir, "datasets", "natural_real", "NATURALDATA.txt")
+    sentresponses_path = os.path.join(base_dir,"nova", "coach_train", "sentresponses.json")
+    last_seen = None
+
     while True:
-        if 'response' in coach.data.columns:
-            coach.data['naturality_score'] = coach.data['response'].apply(natural_score)
-            for idx, row in coach.data.iterrows():
-                print(f"Response: {row['response']}\nNaturality Score: {row['naturality_score']}\n")
-        else:
-            print("No 'response' column found in sentresponses.json.")
-        time.sleep(0.1)  # Wait 5 seconds before checking again
-        # Optionally, reload the data to catch new responses:
-        coach.importdata("Nova/coach_train/sentresponses.json")
+        if not os.path.exists(sentresponses_path):
+            print(f"File not found: {sentresponses_path}")
+            time.sleep(1)
+            continue
+        with open(sentresponses_path, "r", encoding="utf-8") as f:
+            try:
+                responses = json.load(f)
+            except Exception as e:
+                print(f"Error loading sentresponses.json: {e}")
+                time.sleep(1)
+                continue
+        if not responses:
+            time.sleep(0.5)
+            continue
+        latest = responses[-1]
+        text = latest["response"] if isinstance(latest, dict) and "response" in latest else str(latest)
+        if text and text != last_seen:
+            score = natural_score(text)
+            print(f"Nova Response: {text}\nNaturality Score: {score}\n")
+            log_scoring(score)
+            last_seen = text
+        time.sleep(0.5)
 
-
-    
 

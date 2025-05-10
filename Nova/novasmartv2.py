@@ -276,7 +276,9 @@ class Nova:
         # 
 
         # Get logic/coach scores (from nueral_model)
-        logic_response, logic_scores = score_options(user_input, candidate_responses)
+        logic_scores = score_options(candidate_responses)
+        best_idx = int(torch.argmax(torch.tensor([s["score"] for s in logic_scores])))
+        logic_response = candidate_responses[best_idx]
         reasoning_log.append(f"Logic scores: {logic_scores}")
 
         # Get moral scores (from moralcoach)
@@ -293,7 +295,7 @@ class Nova:
 
         # Combine scores (simple sum, or use weights if you want)
         combined_scores = [
-            logic + moral + natural
+            logic["score"] + moral + natural
             for logic, moral, natural in zip(logic_scores, moral_scores, natural_scores)
         ]
         best_idx = int(torch.argmax(torch.tensor(combined_scores)))

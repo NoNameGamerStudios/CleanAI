@@ -1,0 +1,448 @@
+{
+    "dictionary": {
+        "think": {
+            "type": "verb",
+            "meaning": "to use one's mind to consider something."
+        },
+        "quickly": {
+            "type": "adverb",
+            "meaning": "at a fast speed."
+        },
+        "logical": {
+            "type": "adjective",
+            "meaning": "characterized by clear, sound reasoning."
+        },
+        "action": {
+            "type": "noun",
+            "meaning": "the process of doing something, typically to achieve an aim."
+        },
+        "clearly": {
+            "type": "adverb",
+            "meaning": "in a clear, easy-to-understand manner."
+        },
+        "argue": {
+            "type": "verb",
+            "meaning": "to present reasons for or against something."
+        },
+        "simple": {
+            "type": "adjective",
+            "meaning": "easily understood or done; presenting no difficulty."
+        },
+        "point": {
+            "type": "noun",
+            "meaning": "a particular detail or argument that is part of a broader discussion."
+        },
+        "logicality": {
+            "type": "noun",
+            "meaning": "the quality of being logical."
+        },
+        "fast": {
+            "type": "adjective",
+            "meaning": "moving or capable of moving at high speed."
+        },
+        "reasonably": {
+            "type": "adverb",
+            "meaning": "in a fair and sensible manner."
+        },
+        "refuse": {
+            "type": "verb",
+            "meaning": "to indicate or show that one is unwilling to do something."
+        },
+        "inconsistent": {
+            "type": "adjective",
+            "meaning": "not staying the same throughout, showing irregularities."
+        },
+        "speak": {
+            "type": "verb",
+            "meaning": "to communicate by talking."
+        },
+        "truth": {
+            "type": "noun",
+            "meaning": "the quality of being true, accurate, or factual."
+        },
+        "verify": {
+            "type": "verb",
+            "meaning": "to confirm the accuracy or truth of something."
+        },
+        "connection": {
+            "type": "noun",
+            "meaning": "the relationship or link between two things."
+        },
+        "exactly": {
+            "type": "adverb",
+            "meaning": "in a precise manner, without error."
+        },
+        "present": {
+            "type": "verb",
+            "meaning": "to give something to someone, often in a formal way."
+        },
+        "fact": {
+            "type": "noun",
+            "meaning": "a thing that is known or proved to be true."
+        },
+        "clearness": {
+            "type": "noun",
+            "meaning": "the quality of being easy to understand or free from confusion."
+        },
+        "statement": {
+            "type": "noun",
+            "meaning": "a declarative sentence or assertion."
+        },
+        "contradict": {
+            "type": "verb",
+            "meaning": "to assert the opposite of a statement or idea."
+        },
+        "moral": {
+            "type": "adjective",
+            "meaning": "concerned with the principles of right and wrong behavior."
+        },
+        "reasoning": {
+            "type": "noun",
+            "meaning": "the action of thinking about something in a logical, rational manner."
+        },
+        "clarify": {
+            "type": "verb",
+            "meaning": "to make something clear or easier to understand."
+        },
+        "debate": {
+            "type": "verb",
+            "meaning": "to argue about a topic, typically in a formal manner."
+        },
+        "decide": {
+            "type": "verb",
+            "meaning": "to make a choice after considering options."
+        },
+        "consequence": {
+            "type": "noun",
+            "meaning": "a result or effect of an action or decision."
+        },
+        "reflect": {
+            "type": "verb",
+            "meaning": "to think deeply about something."
+        },
+        "evaluate": {
+            "type": "verb",
+            "meaning": "to assess or judge the value or quality of something."
+        },
+        "intention": {
+            "type": "noun",
+            "meaning": "a plan or purpose behind an action."
+        },
+        "choice": {
+            "type": "noun",
+            "meaning": "the act of selecting from two or more possibilities."
+        },
+        "disagree": {
+            "type": "verb",
+            "meaning": "to have a different opinion or perspective."
+        },
+        "assess": {
+            "type": "verb",
+            "meaning": "to evaluate or estimate the nature, ability, or quality of something."
+        },
+        "solution": {
+            "type": "noun",
+            "meaning": "a means of solving a problem or dealing with a situation."
+        },
+        "strategy": {
+            "type": "noun",
+            "meaning": "a plan of action designed to achieve a particular goal."
+        },
+        "effect": {
+            "type": "noun",
+            "meaning": "a change that has occurred because of a particular action."
+        },
+        "discuss": {
+            "type": "verb",
+            "meaning": "to talk about something in detail."
+        },
+        "eliminate": {
+            "type": "verb",
+            "meaning": "to remove or get rid of something."
+        },
+        "opinion": {
+            "type": "noun",
+            "meaning": "a personal belief or judgment not founded on proof or certainty."
+        },
+        "conclude": {
+            "type": "verb",
+            "meaning": "to bring something to a logical end or resolution."
+        },
+        "analyze": {
+            "type": "verb",
+            "meaning": "to examine something in detail in order to understand it better."
+        },
+        "possible": {
+            "type": "adjective",
+            "meaning": "able to be done or achieved."
+        },
+        "just": {
+            "type": "adjective",
+            "meaning": "based on or behaving according to what is morally right and fair."
+        },
+        "assumption": {
+            "type": "noun",
+            "meaning": "something that is accepted as true without proof."
+        },
+        "bias": {
+            "type": "noun",
+            "meaning": "prejudice in favor of or against one thing, person, or group."
+        },
+        "conclusion": {
+            "type": "noun",
+            "meaning": "a judgment or decision reached after consideration."
+        },
+        "criteria": {
+            "type": "noun",
+            "meaning": "standards by which something is judged."
+        },
+        "deduce": {
+            "type": "verb",
+            "meaning": "to arrive at a fact or conclusion by reasoning."
+        },
+        "define": {
+            "type": "verb",
+            "meaning": "to state or describe the nature or meaning of something."
+        },
+        "doubt": {
+            "type": "noun",
+            "meaning": "a feeling of uncertainty or lack of conviction."
+        },
+        "evidence": {
+            "type": "noun",
+            "meaning": "facts or information indicating whether a belief is true."
+        },
+        "examine": {
+            "type": "verb",
+            "meaning": "to inspect or scrutinize carefully."
+        },
+        "explanation": {
+            "type": "noun",
+            "meaning": "a statement that makes something clear."
+        },
+        "hypothesis": {
+            "type": "noun",
+            "meaning": "a proposed explanation made on the basis of limited evidence."
+        },
+        "imply": {
+            "type": "verb",
+            "meaning": "to strongly suggest the truth or existence of something."
+        },
+        "infer": {
+            "type": "verb",
+            "meaning": "to deduce or conclude from evidence and reasoning."
+        },
+        "interpret": {
+            "type": "verb",
+            "meaning": "to explain the meaning of something."
+        },
+        "judgment": {
+            "type": "noun",
+            "meaning": "the ability to make considered decisions."
+        },
+        "justify": {
+            "type": "verb",
+            "meaning": "to show or prove to be right or reasonable."
+        },
+        "objective": {
+            "type": "adjective",
+            "meaning": "not influenced by personal feelings or opinions."
+        },
+        "perspective": {
+            "type": "noun",
+            "meaning": "a particular attitude toward or way of regarding something."
+        },
+        "predict": {
+            "type": "verb",
+            "meaning": "to say what will happen in the future."
+        },
+        "premise": {
+            "type": "noun",
+            "meaning": "a previous statement from which another is inferred."
+        },
+        "probability": {
+            "type": "noun",
+            "meaning": "the extent to which something is likely to happen."
+        },
+        "rational": {
+            "type": "adjective",
+            "meaning": "based on or in accordance with reason or logic."
+        },
+        "rebut": {
+            "type": "verb",
+            "meaning": "to claim or prove that evidence or an accusation is false."
+        },
+        "relevant": {
+            "type": "adjective",
+            "meaning": "closely connected or appropriate to the matter at hand."
+        },
+        "subjective": {
+            "type": "adjective",
+            "meaning": "based on or influenced by personal feelings."
+        },
+        "synthesize": {
+            "type": "verb",
+            "meaning": "to combine different ideas to create a new whole."
+        },
+        "theory": {
+            "type": "noun",
+            "meaning": "a system of ideas intended to explain something."
+        },
+        "thesis": {
+            "type": "noun",
+            "meaning": "a statement or theory put forward as a premise."
+        },
+        "valid": {
+            "type": "adjective",
+            "meaning": "having a sound basis in logic or fact."
+        },
+        "assessable": {
+            "type": "adjective",
+            "meaning": "able to be evaluated or estimated."
+        },
+        "contradiction": {
+            "type": "noun",
+            "meaning": "a combination of statements that are opposed to one another."
+        },
+        "correlation": {
+            "type": "noun",
+            "meaning": "a mutual relationship between two or more things."
+        },
+        "deduction": {
+            "type": "noun",
+            "meaning": "the inference of particular instances by reference to a general law."
+        },
+        "fallacy": {
+            "type": "noun",
+            "meaning": "a mistaken belief, especially one based on unsound argument."
+        },
+        "generalize": {
+            "type": "verb",
+            "meaning": "to make a general or broad statement."
+        },
+        "intuition": {
+            "type": "noun",
+            "meaning": "the ability to understand something instinctively."
+        },
+        "logic": {
+            "type": "noun",
+            "meaning": "reasoning conducted according to strict principles."
+        },
+        "method": {
+            "type": "noun",
+            "meaning": "a particular procedure for accomplishing something."
+        },
+        "paradox": {
+            "type": "noun",
+            "meaning": "a statement that contradicts itself but might be true."
+        },
+        "plausible": {
+            "type": "adjective",
+            "meaning": "seeming reasonable or probable."
+        },
+        "presume": {
+            "type": "verb",
+            "meaning": "to suppose something is true based on probability."
+        },
+        "rationalize": {
+            "type": "verb",
+            "meaning": "to attempt to explain or justify with logical reasons."
+        },
+        "refute": {
+            "type": "verb",
+            "meaning": "to prove a statement or theory to be wrong."
+        },
+        "reiterate": {
+            "type": "verb",
+            "meaning": "to say something again for emphasis."
+        },
+        "reliable": {
+            "type": "adjective",
+            "meaning": "consistently good in quality or performance."
+        },
+        "skepticism": {
+            "type": "noun",
+            "meaning": "a skeptical attitude; doubt as to the truth of something."
+        },
+        "speculate": {
+            "type": "verb",
+            "meaning": "to form a theory without firm evidence."
+        },
+        "suppose": {
+            "type": "verb",
+            "meaning": "to assume something is true without proof."
+        },
+        "tangible": {
+            "type": "adjective",
+            "meaning": "perceptible by touch; clear and definite."
+        },
+        "unbiased": {
+            "type": "adjective",
+            "meaning": "showing no prejudice for or against something."
+        },
+        "weigh": {
+            "type": "verb",
+            "meaning": "to consider carefully, especially by balancing opposing factors."
+        },
+        "assimilate": {
+            "type": "verb",
+            "meaning": "to take in and understand fully."
+        },
+        "attribute": {
+            "type": "verb",
+            "meaning": "to regard something as being caused by someone or something."
+        },
+        "categorize": {
+            "type": "verb",
+            "meaning": "to place in a particular class or group."
+        },
+        "coherent": {
+            "type": "adjective",
+            "meaning": "logical and consistent."
+        },
+        "contemplate": {
+            "type": "verb",
+            "meaning": "to think about deeply and at length."
+        },
+        "discern": {
+            "type": "verb",
+            "meaning": "to perceive or recognize something."
+        },
+        "elucidate": {
+            "type": "verb",
+            "meaning": "to make something clear; explain."
+        },
+        "formulate": {
+            "type": "verb",
+            "meaning": "to create or devise methodically."
+        },
+        "inference": {
+            "type": "noun",
+            "meaning": "a conclusion reached on the basis of evidence and reasoning."
+        },
+        "objectivity": {
+            "type": "noun",
+            "meaning": "the quality of being objective."
+        },
+        "paraphrase": {
+            "type": "verb",
+            "meaning": "to express the meaning of something using different words."
+        },
+        "rationality": {
+            "type": "noun",
+            "meaning": "the quality of being based on or in accordance with reason or logic."
+        },
+        "scrutinize": {
+            "type": "verb",
+            "meaning": "to examine or inspect closely and thoroughly."
+        },
+        "substantiate": {
+            "type": "verb",
+            "meaning": "to provide evidence to support or prove the truth of something."
+        },
+        "transparency": {
+            "type": "noun",
+            "meaning": "the quality of being easily seen through or detected."
+        }
+    }
+}
