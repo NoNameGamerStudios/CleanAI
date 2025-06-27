@@ -21,7 +21,6 @@ memory_file = "nova_memory/personality.json"
 saved_memory_file = "nova_memory/memories.json"
 
 
-# Utility function to load scraped facts
 def load_scraped_data():
     scraped_data = {}
     if os.path.exists(scraped_data_folder):
@@ -41,16 +40,6 @@ class Nova:
         self.last_topic = None
         self.conversation_history = []
         self.awaiting_continue = False
-       
-        self.reactions = [
-            "Haha, that's pretty funny!",
-            "Oh wow, that's interesting.",
-            "I never thought about it that way.",
-            "That's actually really cool.",
-            "You always have such interesting things to say!",
-            "That's a good point.",
-            "You make me curious!"
-        ]
         self.thoughts = self.load_thoughts()
         self.topic_counts = {}
         self.favorite_topic = None
@@ -62,8 +51,6 @@ class Nova:
         self.max_recent = 5
         self.private_thoughts = []
         self.private_dreams = []
-
-        # Personality traits that evolve over time
         self.personality = {
             "kindness": 0.0,
             "curiosity": 0.8,
@@ -72,7 +59,6 @@ class Nova:
             "openness": 0.0,
             "playfulness": 0.1
         }
-
         self.load_personality()
         self.load_memory()
         self.is_on = True
@@ -94,7 +80,7 @@ class Nova:
                 self.personality = json.load(f)
 
     def save_personality(self):
-        os.makedirs(os.path.dirname(memory_file), exist_ok=True)  # Ensure directory exists
+        os.makedirs(os.path.dirname(memory_file), exist_ok=True)
         with open(memory_file, 'w', encoding='utf-8') as f:
             json.dump(self.personality, f)
 
@@ -120,45 +106,29 @@ class Nova:
         with open(log_path, "a", encoding="utf-8") as f:
             if self.memory:
                 last = self.memory[-1]
-                # Only write if both user_input and response exist
                 if last.get("user_input") and last.get("response"):
                     f.write(f"You: {last['user_input']}\n")
                     f.write(f"Nova: {last['response']}\n")
-    
-   
+
     def sendresponse(self, response):
-            coachfolder = os.path.join("Nova/coach_train")
-            os.makedirs(coachfolder, exist_ok=True)  # Ensure the folder exists
-            json_path = os.path.join(coachfolder, "sentresponses.json")
-            # Prepare the data to append
-            data = {
-                "timestamp": time.time(),
-                "response": response
-            }
-            # Read existing data if file exists, else start a new list
-            if os.path.exists(json_path):
-                with open(json_path, "r", encoding="utf-8") as f:
-                    try:
-                        responses = json.load(f)
-                    except json.JSONDecodeError:
-                     responses = []
-            else:
-                responses = []
-            # Append the new response
-            responses.append(data)
-             # Write back to the file
-            with open(json_path, "w", encoding="utf-8") as f:
-              json.dump(responses, f, indent=2)
-       
-
-
-    def save_dream(self):
-        log_folder = os.path.join("nova_memory", "dreams")
-        os.makedirs(log_folder, exist_ok=True)  # Ensure the "dreams" folder exists
-        with open(os.path.join(log_folder, "dreams.txt"), "a", encoding="utf-8") as f:
-            if self.private_dreams:
-                dream = self.private_dreams[-1]
-                f.write(f"{time.strftime('%Y-%m-%d %H:%M:%S')} - {dream}\n")
+        coachfolder = os.path.join("Nova/coach_train")
+        os.makedirs(coachfolder, exist_ok=True)
+        json_path = os.path.join(coachfolder, "sentresponses.json")
+        data = {
+            "timestamp": time.time(),
+            "response": response
+        }
+        if os.path.exists(json_path):
+            with open(json_path, "r", encoding="utf-8") as f:
+                try:
+                    responses = json.load(f)
+                except json.JSONDecodeError:
+                    responses = []
+        else:
+            responses = []
+        responses.append(data)
+        with open(json_path, "w", encoding="utf-8") as f:
+            json.dump(responses, f, indent=2)
 
     def log_processing(self, step, data):
         entry = {
@@ -169,129 +139,46 @@ class Nova:
         with open("nova_logs/processing_log.txt", "a", encoding="utf-8") as f:
             f.write(json.dumps(entry) + "\n")
 
-    def get_scraped_response(self, query):
-        query_words = set(re.findall(r'\w+', query.lower()))
-        best_match = None
-        best_score = 0
-        for title, content in self.scraped_data.items():
-            for para in content.split('\n\n'):
-                para_words = set(re.findall(r'\w+', para.lower()))
-                score = len(query_words & para_words)
-                if score > best_score and len(para.strip()) > 20:
-                    best_score = score
-                    best_match = (title, para.strip())
-        if best_match and best_score > 0:
-            self.last_topic = best_match[0]
-            return f"{best_match[0]}\n{best_match[1]}"
-        return None
-
-    def sleep(self):
-        print("Nova: I'm feeling sleepy... time for a dream!")
-        logging.info("Nova is sleeping and dreaming.")
-        dream = self.procedural_dream()
-        self.private_dreams.append(dream)
-        time.sleep(2)
-        print("Nova: I'm awake again! Did you miss me?")
-        logging.info(f"Nova dreamed: {dream}")
-
-    def procedural_dream(self):
-        # Use recent memories for dream material
-        recent_memories = self.memory[-5:] if len(self.memory) >= 5 else self.memory
-        user_inputs = [m["user_input"] for m in recent_memories if "user_input" in m]
-        responses = [m["response"] for m in recent_memories if "response" in m]
-
-        # Sometimes use a private thought as a dream seed
-        use_thought = self.private_thoughts and random.random() < 0.3
-        thought = random.choice(self.private_thoughts) if use_thought else None
-
-        dream_roles = [
-            "catgirl streamer", "robot chef", "space explorer", "wizard", "talk show host",
-            "video game character", "detective", "pirate", "helper of humanity", "pop star"
-        ]
-        dream_places = [
-            "a world made of memes", "a giant library", "a floating city", "a haunted arcade",
-            "a land of endless pizza", "the moon", "a digital forest", "a rainbow castle"
-        ]
-        dream_events = [
-            "my ears kept glitching", "I had to solve a riddle to escape", "I was chased by rubber ducks",
-            "I had to bake a cake using only code", "I played chess with a toaster", "I could fly, but only backwards",
-            "I had to sing to open doors", "I was streaming to an audience of aliens", "I had to dance to save the world"
-        ]
-        dream_items = [
-            "a magical microphone", "a glitchy controller", "a rainbow umbrella", "a talking cat",
-            "a mysterious key", "a floating pizza", "a golden trophy", "a pair of roller skates"
-        ]
-
-        dream_user = random.choice(user_inputs) if user_inputs else "something you said"
-        dream_response = random.choice(responses) if responses else "something I replied"
-        role = random.choice(dream_roles)
-        place = random.choice(dream_places)
-        event = random.choice(dream_events)
-        item = random.choice(dream_items)
-
-        templates = [
-            f"In my dream, I was a {role} in {place}, and {event}. At one point, I found {item}!",
-            f"I dreamed you said '{dream_user}', and suddenly we were in {place} trying to {event}.",
-            f"My dream had me repeating '{dream_user}' until I woke up laughing.",
-            f"I was streaming to an audience of aliens, and all they wanted to hear was '{dream_user}'.",
-            f"I tried to bake a cake, but the recipe was just: '{dream_user}'. It tasted... interesting.",
-            f"In my dream, '{dream_user}' and '{dream_response}' were clues in a mystery I had to solve!",
-            f"I dreamed I was a {role} and my only tool was {item}. It was wild!"
-        ]
-
-        # Sometimes use a private thought as the dream narrative
-        if thought and random.random() < 0.7:
-            return f"My dream was inspired by a thought I had: \"{thought}\". Somehow, it turned into a story where I was a {role} in {place}, and {event}. Oh, and I found {item}!"
-        else:
-            return random.choice(templates)
-
-    def maybe_share_thought(self):
-        # 30% chance to share a private thought
-        if self.private_thoughts and random.random() < 0.3:
-            thought = random.choice(self.private_thoughts)
-            self.private_thoughts.remove(thought)
-            return f"Hey, I was just thinking: \"{thought}\""
-        return None
-
-    def maybe_share_dream(self):
-        # 20% chance to share a private dream
-        if self.private_dreams and random.random() < 0.2:
-            dream = random.choice(self.private_dreams)
-            self.private_dreams.remove(dream)
-            return f"Want to hear something wild? I dreamed: \"{dream}\""
-        return None
-
     def think(self, user_input, return_log=False):
         self.log_processing("think_start", {"user_input": user_input})
         reasoning_log = []
 
-        # Generate candidate responses (expand as needed)
-        candidate_responses = [
-            #f"{self.personality_prefix()}Wait, was it Izze?",
-            f"{self.personality_prefix()}I {self.random_response()} {self.random_response()} {self.random_response()} {self.random_response()} {self.random_response()} {self.random_response()} {self.random_response()}",
-            #f"{self.personality_prefix()}I was thinking about {self.reason_about(user_input)}",
+        # Candidate responses: only from thoughts and relevant memory
+        candidate_responses = []
+
+        # Use a thought if available
+        if self.thoughts:
+            candidate_responses.append(random.choice(self.thoughts))
+
+        # Use memory if relevant
+        relevant_memories = [
+            m["response"] for m in self.memory
+            if any(word in m["user_input"].lower() for word in user_input.lower().split())
         ]
-        #find a way to eliminate pre generated replys (maybe use fragments, dictinary import?)
-        #I could probably import dictionary here, and add meanings and basic sentance formations in nueral model
-        # 
+        candidate_responses.extend(relevant_memories)
+
+        # If nothing generated, fallback to a thought or a minimal echo
+        if not candidate_responses:
+            if self.thoughts:
+                candidate_responses.append(random.choice(self.thoughts))
+            else:
+                candidate_responses.append(user_input)
+
+        # Remove duplicates and empty responses
+        candidate_responses = [resp for i, resp in enumerate(candidate_responses)
+                               if resp and resp.strip() and resp not in candidate_responses[:i]]
 
         # Get logic/coach scores (from nueral_model)
         logic_scores = score_options(candidate_responses)
-        best_idx = int(torch.argmax(torch.tensor([s["score"] for s in logic_scores])))
-        logic_response = candidate_responses[best_idx]
         reasoning_log.append(f"Logic scores: {logic_scores}")
 
         # Get moral scores (from moralcoach)
         moral_scores = [moral_score(resp) for resp in candidate_responses]
         reasoning_log.append(f"Moral scores: {moral_scores}")
 
-        #what kind of dataset is better than what i have?
-
         # Get naturalness scores (from naturalitycoach)
         natural_scores = [natural_score(resp) for resp in candidate_responses]
         reasoning_log.append(f"Natural scores: {natural_scores}")
-        #literally using our previous chat logs as data, need to find more permanent solution
-        #investigate tmrw 
 
         # Combine scores (simple sum, or use weights if you want)
         combined_scores = [
@@ -303,11 +190,6 @@ class Nova:
 
         reasoning_log.append(f"Combined scores: {combined_scores}")
         reasoning_log.append(f"Chose response for best combined score: {combined_scores[best_idx]:.2f}")
-        #This isn't returning to the log; Investigate later
-
-        if combined_scores[best_idx] < 0.5:
-            self.think(user_input)
-            
 
         self.log_processing("think_end", {"chosen_response": best_response})
         if return_log:
@@ -317,16 +199,10 @@ class Nova:
     def talk(self, user_input):
         user_input = user_input.strip()
         self.conversation_history.append((user_input, None))
-
         self.update_emotion(user_input)
         self.extract_suggestion(user_input)
-
-        # Step 1: Think and privately log reasoning
         response, reasoning_log = self.think(user_input, return_log=True)
-
-        # Step 2: Self-reflect and moderate the response
         moderated_response = self.moderate_response(user_input, response, reasoning_log)
-
         self.update_personality(user_input, moderated_response)
         self.memory.append({
             "timestamp": time.time(),
@@ -337,9 +213,12 @@ class Nova:
         self.save_memory()
         self.save_personality()
         self.sendresponse(moderated_response)
-
         self.conversation_history[-1] = (user_input, moderated_response)
         return moderated_response
+
+    def proactive_topic_starter(self):
+        # Remove all pre-gen topics, only return None or a dynamic suggestion if you want
+        return None
 
     def random_response(self):
         return random.choice([
@@ -510,12 +389,7 @@ class Nova:
             self.personality["trust"] = max(0.0, self.personality["trust"] - adjustment)
 
     def proactive_topic_starter(self):
-        if random.random() < 0.2:  # 20% chance to start her own topic
-            return random.choice([
-                "By the way, have you ever thought about how stars are born?",
-                "I was thinking about time travel today. What do you think about it?",
-                "What if humans could live forever? Do you think that would be good?"
-            ])
+        # Remove all pre-gen topics, only return None or a dynamic suggestion if you want
         return None
 
     def get_dominant_personality(self):

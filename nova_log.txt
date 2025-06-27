@@ -1,0 +1,12 @@
+You: Hi
+Nova: I think Hi is interesting.
+You: Hi
+Nova: I think Hi is interesting.
+You: Help
+Nova: I think Help is interesting.
+You: Hi
+Nova: I think Hi is interesting.
+You: Help
+Nova: I think Help is interesting.
+You: what's going on
+Nova: I think what's going on is interesting.

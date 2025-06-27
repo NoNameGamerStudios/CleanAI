@@ -976,3 +976,63 @@
 {"timestamp": 1746755053.08577, "step": "think_start", "data": {"user_input": "hi"}}
 {"timestamp": 1746755053.0880256, "step": "think_start", "data": {"user_input": "hi"}}
 {"timestamp": 1746755053.0902832, "step": "think_start", "data": {"user_input": "hi"}}
+{"timestamp": 1750608168.7865129, "step": "think_start", "data": {"user_input": "Hello"}}
+{"timestamp": 1750608168.790573, "step": "think_end", "data": {"chosen_response": "I've been wondering, I boulevard decide bedford certification exist cosmetics containers"}}
+{"timestamp": 1750608168.7910051, "step": "moderate_response", "data": []}
+{"timestamp": 1750608173.9548173, "step": "think_start", "data": {"user_input": "What?"}}
+{"timestamp": 1750608173.9578133, "step": "think_end", "data": {"chosen_response": "\ud83e\udd14 I encouraging baseball acceptable colour attitudes educational designs"}}
+{"timestamp": 1750608173.9581177, "step": "moderate_response", "data": []}
+{"timestamp": 1750608178.2585459, "step": "think_start", "data": {"user_input": "What"}}
+{"timestamp": 1750608178.2615, "step": "think_end", "data": {"chosen_response": "\ud83e\udd14 I expect answered essex craps bernard accredited aerial"}}
+{"timestamp": 1750608178.261744, "step": "moderate_response", "data": []}
+{"timestamp": 1750608181.3223805, "step": "think_start", "data": {"user_input": "Sorry?"}}
+{"timestamp": 1750608181.3253393, "step": "think_end", "data": {"chosen_response": "\ud83e\udd14 I census chart basement cookbook discipline end category"}}
+{"timestamp": 1750608181.325634, "step": "moderate_response", "data": []}
+{"timestamp": 1750608382.010908, "step": "think_start", "data": {"user_input": "Hi"}}
+{"timestamp": 1750608382.0209343, "step": "think_end", "data": {"chosen_response": "That's a good point about Hi."}}
+{"timestamp": 1750608382.0213656, "step": "moderate_response", "data": []}
+{"timestamp": 1750608383.6185648, "step": "think_start", "data": {"user_input": "no"}}
+{"timestamp": 1750608383.627472, "step": "think_end", "data": {"chosen_response": "That's a good point about no."}}
+{"timestamp": 1750608383.6278188, "step": "moderate_response", "data": []}
+{"timestamp": 1750608384.9945648, "step": "think_start", "data": {"user_input": "no"}}
+{"timestamp": 1750608385.0033958, "step": "think_end", "data": {"chosen_response": "That's a good point about no."}}
+{"timestamp": 1750608385.0037627, "step": "moderate_response", "data": []}
+{"timestamp": 1750608387.0104208, "step": "think_start", "data": {"user_input": "no"}}
+{"timestamp": 1750608387.019264, "step": "think_end", "data": {"chosen_response": "That's a good point about no."}}
+{"timestamp": 1750608387.0195916, "step": "moderate_response", "data": []}
+{"timestamp": 1750608387.6665778, "step": "think_start", "data": {"user_input": "no"}}
+{"timestamp": 1750608387.6753829, "step": "think_end", "data": {"chosen_response": "That's a good point about no."}}
+{"timestamp": 1750608387.6757288, "step": "moderate_response", "data": []}
+{"timestamp": 1750608388.3065999, "step": "think_start", "data": {"user_input": "no"}}
+{"timestamp": 1750608388.315419, "step": "think_end", "data": {"chosen_response": "That's a good point about no."}}
+{"timestamp": 1750608388.3157701, "step": "moderate_response", "data": []}
+{"timestamp": 1750608389.114563, "step": "think_start", "data": {"user_input": "non"}}
+{"timestamp": 1750608389.1233819, "step": "think_end", "data": {"chosen_response": "That's a good point about non."}}
+{"timestamp": 1750608389.1237361, "step": "moderate_response", "data": []}
+{"timestamp": 1750608548.050663, "step": "think_start", "data": {"user_input": "Hi"}}
+{"timestamp": 1750608548.0580435, "step": "think_end", "data": {"chosen_response": "That's a good point about Hi."}}
+{"timestamp": 1750608548.058311, "step": "moderate_response", "data": []}
+{"timestamp": 1750608549.6422713, "step": "think_start", "data": {"user_input": "no"}}
+{"timestamp": 1750608549.6511376, "step": "think_end", "data": {"chosen_response": "That's a good point about non."}}
+{"timestamp": 1750608549.6514573, "step": "moderate_response", "data": []}
+{"timestamp": 1750608555.1783628, "step": "think_start", "data": {"user_input": "SHUT UP"}}
+{"timestamp": 1750608555.1831036, "step": "think_end", "data": {"chosen_response": "Can you tell me more about SHUT UP?"}}
+{"timestamp": 1750608555.1833456, "step": "moderate_response", "data": []}
+{"timestamp": 1750608686.6023414, "step": "think_start", "data": {"user_input": "ih\\"}}
+{"timestamp": 1750608686.6057646, "step": "think_end", "data": {"chosen_response": "ih\\"}}
+{"timestamp": 1750608686.60608, "step": "moderate_response", "data": []}
+{"timestamp": 1750608688.274434, "step": "think_start", "data": {"user_input": "kl"}}
+{"timestamp": 1750608688.2772408, "step": "think_end", "data": {"chosen_response": "kl"}}
+{"timestamp": 1750608688.2774825, "step": "moderate_response", "data": []}
+{"timestamp": 1750608689.2340565, "step": "think_start", "data": {"user_input": ";l"}}
+{"timestamp": 1750608689.237047, "step": "think_end", "data": {"chosen_response": ";l"}}
+{"timestamp": 1750608689.237376, "step": "moderate_response", "data": []}
+{"timestamp": 1750608689.994295, "step": "think_start", "data": {"user_input": ";l"}}
+{"timestamp": 1750608689.9971945, "step": "think_end", "data": {"chosen_response": ";l"}}
+{"timestamp": 1750608689.997517, "step": "moderate_response", "data": []}
+{"timestamp": 1750608690.8260918, "step": "think_start", "data": {"user_input": ";l"}}
+{"timestamp": 1750608690.8288486, "step": "think_end", "data": {"chosen_response": ";l"}}
+{"timestamp": 1750608690.829094, "step": "moderate_response", "data": []}
+{"timestamp": 1750608692.058182, "step": "think_start", "data": {"user_input": "lk"}}
+{"timestamp": 1750608692.0609431, "step": "think_end", "data": {"chosen_response": "lk"}}
+{"timestamp": 1750608692.061184, "step": "moderate_response", "data": []}
