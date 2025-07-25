@@ -1,4 +1,6 @@
 # CleanAI
+
+**DEPRECATED** 
  Just a lil' project im working on
 ---- I am coding -----
 
